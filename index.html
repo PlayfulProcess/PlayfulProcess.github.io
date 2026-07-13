@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayfulProcess</title>
+<meta name="description" content="PlayfulProcess — making meaning is a process, not a product. Books, essays, and tools for tending the fire we've been handed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   PlayfulProcess umbrella — standalone front page.
+   Adapted from the mdBook home (src/index.md + playfulprocess.css)
+   on branch claude/edit-species-fire-1C9TN. No book sidebar; supplies
+   its own theme colors since mdBook is no longer here to provide them.
+   Light + ayu-dark, mobile-friendly.
+   ============================================================ */
+
+:root {
+  --bg: #ffffff;
+  --fg: #242424;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a2e;
+    --fg: #e0ddd5;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Newsreader', 'Charter', Georgia, 'Times New Roman', serif;
+  font-size: 19px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 3rem 1.5rem 4rem;
+}
+
+a { color: var(--fg); }
+
+.pp-hub {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ---- Hero ---- */
+.pp-hero {
+  text-align: center;
+  padding: 1.5rem 0 2.5rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.18);
+  margin-bottom: 2.5rem;
+}
+
+.pp-hero h1.pp-wordmark {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.6rem;
+  line-height: 1.1;
+}
+
+.pp-hero .pp-tagline {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+  opacity: 0.85;
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+/* ---- Tab / pill nav ---- */
+.pp-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 1.8rem 0 0;
+}
+
+.pp-nav a {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1.15rem;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 999px;
+  color: var(--fg);
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.pp-nav a:hover,
+.pp-nav a:focus {
+  background: var(--fg);
+  color: var(--bg);
+  border-color: var(--fg);
+}
+
+/* ---- Section headings ---- */
+.pp-hub section {
+  margin: 3rem 0;
+}
+
+.pp-hub h2.pp-h {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 1.2rem;
+}
+
+/* ---- Project cards ---- */
+.pp-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.pp-card {
+  display: block;
+  text-decoration: none;
+  color: var(--fg);
+  border: 1px solid rgba(128, 128, 128, 0.28);
+  border-radius: 14px;
+  padding: 1.25rem 1.4rem;
+  transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease;
+}
+
+a.pp-card:hover,
+a.pp-card:focus {
+  border-color: var(--fg);
+  transform: translateY(-2px);
+}
+
+.pp-card .pp-card-title {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pp-card .pp-card-kind {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  white-space: nowrap;
+}
+
+.pp-card .pp-card-body {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* ---- Two-tier framing note ---- */
+.pp-tiers {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  border-left: 3px solid rgba(128, 128, 128, 0.35);
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  margin: 1.5rem 0;
+  opacity: 0.9;
+}
+
+/* ---- About ---- */
+.pp-about p {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  margin-bottom: 1.1em;
+}
+
+/* ---- Footer ---- */
+.pp-foot {
+  border-top: 1px solid rgba(128, 128, 128, 0.18);
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.pp-foot a {
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+/* ---- Responsive ---- */
+@media (min-width: 620px) {
+  .pp-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  body { padding: 2rem 1rem 3rem; }
+  .pp-hero h1.pp-wordmark {
+    font-size: 2.1rem;
+  }
+  .pp-hero .pp-tagline {
+    font-size: 1.1rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="pp-hub">
+
+  <div class="pp-hero">
+    <h1 class="pp-wordmark">PlayfulProcess</h1>
+    <p class="pp-tagline">Making meaning is a process, not a product. Books, essays, and tools for tending the fire we&rsquo;ve been handed.</p>
+    <nav class="pp-nav">
+      <a href="#projects">The work</a>
+      <a href="https://lifeisprocess.substack.com" target="_blank" rel="noopener">Substack</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+
+  <section id="projects">
+    <h2 class="pp-h">The work, in three places</h2>
+    <div class="pp-cards">
+      <div class="pp-card">
+        <div class="pp-card-title">Books <span class="pp-card-kind">In the studio</span></div>
+        <p class="pp-card-body">A twelve-book architecture on freedom, responsibility, stories, and fire &mdash; written in the open, published here as each one is ready.</p>
+      </div>
+      <a class="pp-card" href="https://lifeisprocess.substack.com" target="_blank" rel="noopener">
+        <div class="pp-card-title">Life Is Process <span class="pp-card-kind">Substack</span></div>
+        <p class="pp-card-body">Essays as they&rsquo;re written &mdash; process, freedom, caring, and the questions the books grow from.</p>
+      </a>
+      <a class="pp-card" href="https://recursive.eco" target="_blank" rel="noopener">
+        <div class="pp-card-title">recursive.eco <span class="pp-card-kind">Platform</span></div>
+        <p class="pp-card-body">A place to make sense together with grammars &mdash; tarot, I&nbsp;Ching, story decks. The tools the books point toward.</p>
+      </a>
+    </div>
+    <p class="pp-tiers"><strong>PlayfulProcess</strong> is the person and the umbrella &mdash; the writing and the point of view. <strong>recursive.eco</strong> is the platform it builds: responsibility infrastructure you can actually use. One is the story; the other is the tool the story hands you.</p>
+  </section>
+
+  <section class="pp-about" id="about">
+    <h2 class="pp-h">About</h2>
+    <p>PlayfulProcess is the pen name of a writer and builder &mdash; a former Goldman Sachs equity research analyst turned social-work student, now making open-source tools and open books. The through-line is a single conviction: <strong>meaning is something we make together, over time, and the containers that hold that work &mdash; families, stories, communities, commons &mdash; can be built on purpose.</strong></p>
+    <p>The books are the argument. <a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco</a> is the argument made usable &mdash; infrastructure for making sense together with symbolic systems, or <em>grammars</em>: tarot decks, I Ching readings, story sets, interpretation frameworks. The Substack, <a href="https://lifeisprocess.substack.com" target="_blank" rel="noopener"><em>Life Is Process</em></a>, is where the thinking happens in public, one essay at a time.</p>
+    <p>Everything here is the author&rsquo;s own work, &copy; PlayfulProcess &mdash; all rights reserved. You&rsquo;re welcome to read, link, and quote briefly with attribution; please ask before republishing, adapting, or using any of it to train machine-learning models.</p>
+  </section>
+
+  <div class="pp-foot">
+    <a href="https://lifeisprocess.substack.com" target="_blank" rel="noopener">Substack</a> &nbsp;&middot;&nbsp;
+    <a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco</a> &nbsp;&middot;&nbsp;
+    <a href="https://github.com/PlayfulProcess" target="_blank" rel="noopener">GitHub</a><br>
+    <span style="opacity:0.8">By PlayfulProcess with Claude &middot; &copy; PlayfulProcess &middot; All rights reserved</span>
+  </div>
+
+</div>
+
+</body>
+</html>
