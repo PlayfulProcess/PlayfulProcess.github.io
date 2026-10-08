@@ -60,3 +60,11 @@ The owner is **PlayfulProcess** in every byline, commit message and page.
 
 All rights reserved, see `LICENSE`. Third-party pictures keep their own licences, credited in
 the page footer. When you add a picture, add its credit there in the same commit.
+
+## Reading with (feeds)
+
+- The "Reading with" section on the home reads `reading.json`; `feed.xml` is this site's own Atom feed
+  (PlayfulProcess's writing plus recursive.eco built in the open). Both are written by
+  `tools/build_reading.py`. To add or remove a person, edit `SOURCES` there.
+- `.github/workflows/reading.yml` refreshes both once a day. It lives on `main` (GitHub runs schedules
+  from the default branch only) and commits to `home/lila`.

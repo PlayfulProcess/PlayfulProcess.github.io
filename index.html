@@ -9,6 +9,7 @@
 <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="alternate" type="application/atom+xml" title="PlayfulProcess" href="feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="PlayfulProcess">
 <meta property="og:title" content="PlayfulProcess">
@@ -212,6 +213,27 @@ footer.foot { margin-top: 48px; border-top: 1px solid var(--line); background: v
 .foot-links a { display: inline-flex; align-items: center; min-height: 44px; }
 .foot-rights, .foot-credits { flex-basis: 100%; }
 .foot-credits { font-size: 13px; line-height: 1.5; }
+/* ---- Reading with: people whose feeds this home follows (reading.json, built daily by tools/build_reading.py) ---- */
+.people { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 640px) { .people { grid-template-columns: 1fr 1fr; } }
+.person {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0;
+}
+.person-head { display: flex; align-items: center; gap: 12px; }
+.avatar { width: 40px; height: 40px; flex: 0 0 auto; border-radius: 50%; background: var(--pill); object-fit: contain; padding: 4px; }
+.person-head .kind { display: block; font-size: 13px; letter-spacing: 0.3px; color: var(--muted); }
+.person-name { font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.15; color: var(--ink); text-decoration: none; }
+.person-name:hover { color: var(--link); text-decoration: underline; }
+.posts { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.posts:empty { display: none; }
+.posts a { display: block; padding: 6px 0; color: var(--ink); text-decoration: none; font-size: 16px; line-height: 1.35; overflow-wrap: anywhere; }
+.posts a:hover { color: var(--link); text-decoration: underline; }
+.posts time { display: block; font-size: 13px; color: var(--muted); }
+.follow, .reading-note a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: 14px; font-weight: 600; color: var(--link); text-decoration: none; align-self: flex-start; }
+.follow:hover, .reading-note a:hover { text-decoration: underline; }
+.follow svg, .reading-note svg { width: 18px; height: 18px; flex: 0 0 auto; }
+.reading-note { margin: 10px 0 0; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px; }
 </style>
 </head>
 <body>
@@ -240,6 +262,8 @@ footer.foot { margin-top: 48px; border-top: 1px solid var(--line); background: v
   <symbol id="i-tree" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9.5" r="6.5"/><path d="M12 21v-9M12 15.5l-2.75-2.75M12 13.75l2.25-2.25M8.5 21h7"/></g></symbol>
   <symbol id="i-spiral" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 12.75a1.5 1.5 0 0 1 3 0 3 3 0 0 1-6 0 4.5 4.5 0 0 1 9 0 6 6 0 0 1-12 0 7.5 7.5 0 0 1 15 0"/></g></symbol>
   <symbol id="i-double-spiral" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.83 19.97A9.5 9.5 0 0 1 12 2.5a4 4 0 1 1-2.83 6.83M17.17 4.03A9.5 9.5 0 0 1 12 21.5a4 4 0 1 1 2.83-6.83"/></g></symbol>
+  <symbol id="i-reading" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.5" cy="14.5" r="3.5"/><circle cx="17.5" cy="14.5" r="3.5"/><path d="M10 14.5c1.2-1 2.8-1 4 0"/><path d="M3 14l1.5-6.5h2M21 14l-1.5-6.5h-2"/></g></symbol>
+  <symbol id="i-rss" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 11a8 8 0 0 1 8 8M5 5a14 14 0 0 1 14 14"/><circle cx="6" cy="18" r="1.2" fill="currentColor"/></g></symbol>
 </svg>
 
 <header class="top">
@@ -256,6 +280,7 @@ footer.foot { margin-top: 48px; border-top: 1px solid var(--line); background: v
           <li><a href="#music">Music</a></li>
           <li><a href="#making">Making</a></li>
           <li><a href="#family">Family</a></li>
+          <li><a href="#reading">Reading</a></li>
         </ul>
       </nav>
     </div>
@@ -431,6 +456,45 @@ footer.foot { margin-top: 48px; border-top: 1px solid var(--line); background: v
       </ul>
     </section>
 
+    <section id="reading" aria-labelledby="reading-h">
+      <h2 id="reading-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-reading"/></svg>Reading with</h2>
+      <ul class="people">
+        <li class="person" data-id="playfulprocess">
+          <div class="person-head">
+            <img class="avatar" src="icons/playfulprocess-logo.svg" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://www.playfulprocess.com/" target="_blank" rel="noopener">PlayfulProcess</a><span class="kind">Writing</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from PlayfulProcess"></ol>
+          <a class="follow" href="https://www.playfulprocess.com/feed" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+        <li class="person" data-id="recursive-eco">
+          <div class="person-head">
+            <img class="avatar" src="icons/recursive-logo.svg" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://recursive.eco/" target="_blank" rel="noopener">recursive.eco</a><span class="kind">Built in the open</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from recursive.eco"></ol>
+          <a class="follow" href="feed.xml"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+        <li class="person" data-id="martin-fowler">
+          <div class="person-head">
+            <img class="avatar" src="https://martinfowler.com/favicon.ico" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://martinfowler.com/" target="_blank" rel="noopener">Martin Fowler</a><span class="kind">Software design</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from Martin Fowler"></ol>
+          <a class="follow" href="https://martinfowler.com/feed.atom" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+        <li class="person" data-id="john-onolan">
+          <div class="person-head">
+            <img class="avatar" src="https://john.onolan.org/favicon.ico" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://john.onolan.org/" target="_blank" rel="noopener">John O&rsquo;Nolan</a><span class="kind">Ghost, open source</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from John O&rsquo;Nolan"></ol>
+          <a class="follow" href="https://john.onolan.org/rss/" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+      </ul>
+      <p class="reading-note">Newest first, refreshed once a day. <a href="feed.xml"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>This site&rsquo;s own feed</a></p>
+    </section>
+
     <section id="contribute" aria-labelledby="contribute-h">
       <div class="note">
         <h2 id="contribute-h">Contribute</h2>
@@ -462,10 +526,37 @@ footer.foot { margin-top: 48px; border-top: 1px solid var(--line); background: v
       <a href="ways-of-working.html">Our ways of working</a>
       <a href="https://lifeisprocess.substack.com/" target="_blank" rel="noopener">Substack</a>
       <a href="https://github.com/PlayfulProcess" target="_blank" rel="noopener">GitHub</a>
+      <a href="feed.xml">Feed</a>
     </span>
     <span class="foot-credits">Pictures: Rider-Waite-Smith tarot (1909), Hasegawa T&#333;haku&rsquo;s <cite>Pine Trees</cite> (Tokyo National Museum) and the Flammarion engraving (1888), all public domain via <a href="https://commons.wikimedia.org/wiki/File:Hasegawa_Tohaku_-_Pine_Trees_(Sh%C5%8Drin-zu_by%C5%8Dbu)_-_right_hand_screen.jpg" target="_blank" rel="noopener">Wikimedia</a> <a href="https://commons.wikimedia.org/wiki/File:Flammarion.jpg" target="_blank" rel="noopener">Commons</a>; Robert Fludd, <cite>Integrae naturae speculum artisque imago</cite> (1617), <a href="https://commons.wikimedia.org/wiki/File:Robert_Fludd,_Integra_naturae_speculum_artisque_imago.jpg" target="_blank" rel="noopener">Wellcome Collection</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. The other thumbnails are pictures of the linked pages.</span>
     <span class="foot-rights">&copy; 2026 PlayfulProcess. The writing on this site is all rights reserved (see <a href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/blob/main/LICENSE" target="_blank" rel="noopener">LICENSE</a>).</span>
   </div>
 </footer>
+<script>
+/* Reading with: fill each person's latest posts from reading.json (same site; built daily). */
+(function () {
+  var fmt = function (iso) {
+    var d = new Date(iso), now = new Date();
+    var o = { month: 'short', day: 'numeric' };
+    if (d.getFullYear() !== now.getFullYear()) o.year = 'numeric';
+    return d.toLocaleDateString(document.documentElement.lang || 'en', o);
+  };
+  fetch('reading.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (data) {
+    if (!data) return;
+    data.sources.forEach(function (s) {
+      var list = document.querySelector('.person[data-id="' + s.id + '"] .posts');
+      if (!list) return;
+      s.items.forEach(function (it) {
+        if (!/^https:\/\//.test(it.url)) return;
+        var li = document.createElement('li'), a = document.createElement('a'), t = document.createElement('time');
+        a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = it.title;
+        t.dateTime = it.date; t.textContent = fmt(it.date);
+        a.appendChild(t); li.appendChild(a); list.appendChild(li);
+      });
+    });
+  }).catch(function () {});
+})();
+</script>
 </body>
 </html>
