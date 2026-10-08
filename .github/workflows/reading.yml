@@ -1,0 +1,36 @@
+# Refresh the "Reading with" section (reading.json) and this site's own feed (feed.xml) once a day.
+# GitHub runs scheduled workflows from the default branch (main) only, so this file lives on main
+# and writes to the branch GitHub Pages serves (home/lila).
+name: Reading feeds
+
+on:
+  schedule:
+    - cron: "17 13 * * *"   # daily, 06:17 Pacific (13:17 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reading-feeds
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: home/lila
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/build_reading.py
+      - name: Commit if anything changed
+        run: |
+          git add reading.json feed.xml
+          if git diff --cached --quiet; then echo "No new posts."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Reading feeds: newest posts [skip ci]"
+          git push origin HEAD:home/lila

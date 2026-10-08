@@ -4,272 +4,559 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PlayfulProcess</title>
-<meta name="description" content="PlayfulProcess — making meaning is a process, not a product. Books, essays, and tools for tending the fire we've been handed.">
+<meta name="description" content="PlayfulProcess: making meaning is a process, not a product. Practice, theory, life, conversations, making and family, on recursive.eco.">
+<meta name="theme-color" content="#f1eaf9">
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="alternate" type="application/atom+xml" title="PlayfulProcess" href="feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PlayfulProcess">
+<meta property="og:title" content="PlayfulProcess">
+<meta property="og:description" content="Making meaning is a process, not a product. Practice, theory, life, conversations, music, making and family, on recursive.eco.">
+<meta property="og:url" content="https://playfulprocess.github.io/">
+<meta property="og:image" content="https://playfulprocess.github.io/img/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The PlayfulProcess double spiral beside the name and the line: Making meaning is a process, not a product.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* ============================================================
-   PlayfulProcess umbrella — standalone front page.
-   Adapted from the mdBook home (src/index.md + playfulprocess.css)
-   on branch claude/edit-species-fire-1C9TN. No book sidebar; supplies
-   its own theme colors since mdBook is no longer here to provide them.
-   Light + ayu-dark, mobile-friendly.
-   ============================================================ */
-
+/* PlayfulProcess home. One self-contained page, no build step.
+   Lilac (Lila) palette from the "PlayfulProcess - practice (mock)" HomeLila board.
+   The same colours and font are in recursive-eco.json's shell block, so the
+   home and recursive.eco's viewers wear one look. Change both together. */
 :root {
-  --bg: #ffffff;
-  --fg: #242424;
+  --ground: #f1eaf9;
+  --panel: #fbf8fe;
+  --ink: #2e1846;
+  --muted: #5a4a6e;
+  --link: #5b2a91;
+  --link-hover: #3d1a66;
+  --spiral: #9a6fd0;
+  --line: #d6c7ea;
+  --pill: #e4d6f5;
+  --focus: #7a45b8;
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1a1a2e;
-    --fg: #e0ddd5;
-  }
-}
-
 * { box-sizing: border-box; }
-
-html { -webkit-text-size-adjust: 100%; }
-
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 1rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
-  background: var(--bg);
-  color: var(--fg);
-  font-family: 'Newsreader', 'Charter', Georgia, 'Times New Roman', serif;
-  font-size: 19px;
-  line-height: 1.8;
   margin: 0;
-  padding: 3rem 1.5rem 4rem;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.55;
+}
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { color: var(--link-hover); }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+.skip {
+  position: absolute; left: 16px; top: -60px; z-index: 10;
+  background: var(--ink); color: var(--panel); padding: 10px 16px; border-radius: 22px;
+  font-weight: 600; text-decoration: none;
+}
+.skip:focus { top: 12px; color: var(--panel); }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+.slot { color: var(--muted); font-style: italic; }
+
+/* ---- Header: recursive.eco's static spiral at the far left -> recursive.eco, then this site's mark and name -> this home, then the menu (same pattern as the sibling sites) ---- */
+header.top { border-bottom: 1px solid var(--line); }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px; padding: 8px 0; }
+.eco-mark {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; flex: 0 0 auto; border-radius: 50%;
+}
+.eco-mark img { display: block; width: 34px; height: 34px; }
+.eco-mark:hover { background: var(--pill); }
+.brand {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px;
+  color: var(--ink); text-decoration: none;
+}
+.logo { width: 34px; height: 34px; flex: 0 0 auto; color: var(--link); }
+.name {
+  font-family: var(--serif); font-size: 27px; font-weight: 600; letter-spacing: 0.2px;
+}
+.brand:hover { color: var(--link-hover); }
+.brand:hover .logo { color: var(--link-hover); }
+/* the small way back to the broad home, kept in the footer: recursive.eco's own spiral */
+.eco {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px;
+  font-size: 14px; color: var(--muted); text-decoration: none;
+}
+.eco svg { width: 18px; height: 18px; flex: 0 0 auto; }
+.eco:hover { color: var(--link); text-decoration: underline; }
+nav.streams { margin-left: auto; }
+nav.streams ul {
+  list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 18px;
+}
+nav.streams a {
+  display: flex; align-items: center; min-height: 44px;
+  font-size: 16px; font-weight: 500; color: var(--ink); text-decoration: none;
+}
+nav.streams a:hover { color: var(--link); text-decoration: underline; }
+@media (max-width: 900px) {
+  nav.streams { margin-left: 0; flex: 1 1 100%; }
+  .name { font-size: 24px; }
 }
 
-a { color: var(--fg); }
+/* ---- Intro ---- */
+.intro { padding: 36px 0 8px; }
+.intro h1 {
+  margin: 0 0 12px; font-family: var(--serif); font-weight: 600;
+  font-size: clamp(44px, 11vw, 76px); line-height: 0.98;
+}
+.tagline { margin: 0 0 10px; font-family: var(--serif); font-size: 24px; font-style: italic; line-height: 1.3; }
+.bio { margin: 0 0 22px; font-size: 18px; max-width: 40rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 22px;
+  border-radius: 24px; font-weight: 600; font-size: 16px; text-decoration: none;
+}
+.btn-primary { background: var(--ink); color: var(--panel); }
+.btn-primary:hover { background: var(--link-hover); color: var(--panel); }
+.btn-quiet { border: 1px solid #a993c6; color: var(--ink); background: var(--panel); }
+.btn-quiet:hover { border-color: var(--link); color: var(--link); }
+.newtab-note { margin: 14px 0 0; font-size: 14px; color: var(--muted); }
 
-.pp-hub {
-  max-width: 760px;
-  margin: 0 auto;
+/* ---- Streams ---- */
+main section { padding: 34px 0 6px; }
+main h2 {
+  margin: 0 0 14px; font-family: var(--serif); font-weight: 600; font-size: 34px; line-height: 1.1;
+}
+main section > h2 { display: flex; align-items: center; gap: 10px; }
+.sicon { width: 28px; height: 28px; flex: 0 0 auto; color: var(--link); }
+.items {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: 1fr; gap: 12px;
+}
+@media (min-width: 640px) { .items { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 980px) { .items { grid-template-columns: 1fr 1fr 1fr; } }
+.item {
+  height: 100%;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 4px;
+}
+.item:hover { border-color: #a993c6; }
+.item .kind { font-size: 13px; letter-spacing: 0.3px; color: var(--muted); }
+.item a.title {
+  font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.15;
+  color: var(--ink); text-decoration: none;
+}
+.item a.title:hover { color: var(--link); text-decoration: underline; }
+.item p { margin: 0; font-size: 15px; color: var(--muted); }
+.item.coming { background: transparent; border-style: dashed; }
+/* ---- Thumbnails: fixed 16:9 box on a soft lilac tile, so nothing jumps while images load ---- */
+.item { position: relative; }
+.item a.title::after { content: ""; position: absolute; inset: 0; border-radius: 18px; }
+.item:focus-within { border-color: var(--focus); }
+.item a.title:focus-visible { outline: none; }
+.item:has(a.title:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.thumb {
+  position: relative; aspect-ratio: 16 / 9; width: 100%; margin-bottom: 8px;
+  border-radius: 12px; overflow: hidden; background: var(--pill);
+  background-image: linear-gradient(160deg, #eadcf8 0%, #e4d6f5 55%, #d9c6f0 100%);
+}
+.thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.thumb-icon { display: flex; align-items: center; justify-content: center; color: var(--spiral); }
+.thumb-icon svg { width: 56px; height: 56px; }
+.thumb-banner img { object-fit: contain; padding: 6px 0; }
+.thumb-card img { width: auto; height: 92%; position: absolute; top: 4%; left: 50%; transform: translateX(-50%); border-radius: 4px; box-shadow: 0 2px 8px rgba(46,24,70,.28); }
+.thumb-fan img {
+  position: absolute; top: 7%; left: 50%; width: auto; height: 86%; border-radius: 4px;
+  background: var(--panel); box-shadow: 0 2px 8px rgba(46,24,70,.3); transform-origin: 50% 120%;
+}
+.thumb-fan .c0 { transform: translateX(-108%) rotate(-10deg); z-index: 1; }
+.thumb-fan .c1 { transform: translateX(-50%); z-index: 2; }
+.thumb-fan .c2 { transform: translateX(8%) rotate(10deg); z-index: 1; }
+.item.coming .thumb { opacity: .8; }
+.btn .bicon { width: 22px; height: 22px; flex: 0 0 auto; }
+
+.title-row { display: block; }
+.title-plain { font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.15; }
+.badge {
+  display: inline-block; margin-left: 6px; padding: 1px 10px; border-radius: 999px;
+  background: var(--pill); color: var(--ink);
+  font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 0.4px;
+  vertical-align: middle;
 }
 
-/* ---- Hero ---- */
-.pp-hero {
-  text-align: center;
-  padding: 1.5rem 0 2.5rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.18);
-  margin-bottom: 2.5rem;
+/* ---- Bracketed slots (her words go here) ---- */
+.note {
+  background: var(--panel); border: 2px dashed #a993c6; border-radius: 22px;
+  padding: 22px 22px; max-width: 760px;
 }
-
-.pp-hero h1.pp-wordmark {
-  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
-  font-size: 2.6rem;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  margin: 0 0 0.6rem;
-  line-height: 1.1;
-}
-
-.pp-hero .pp-tagline {
-  font-family: 'Newsreader', Georgia, serif;
-  font-size: 1.25rem;
-  font-style: italic;
-  line-height: 1.6;
-  opacity: 0.85;
-  max-width: 34rem;
-  margin: 0 auto;
-}
-
-/* ---- Tab / pill nav ---- */
-.pp-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem;
-  margin: 1.8rem 0 0;
-}
-
-.pp-nav a {
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 0.5rem 1.15rem;
-  border: 1px solid rgba(128, 128, 128, 0.35);
-  border-radius: 999px;
-  color: var(--fg);
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-}
-
-.pp-nav a:hover,
-.pp-nav a:focus {
-  background: var(--fg);
-  color: var(--bg);
-  border-color: var(--fg);
-}
-
-/* ---- Section headings ---- */
-.pp-hub section {
-  margin: 3rem 0;
-}
-
-.pp-hub h2.pp-h {
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  margin: 0 0 1.2rem;
-}
-
-/* ---- Project cards ---- */
-.pp-cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-.pp-card {
-  display: block;
-  text-decoration: none;
-  color: var(--fg);
-  border: 1px solid rgba(128, 128, 128, 0.28);
-  border-radius: 14px;
-  padding: 1.25rem 1.4rem;
-  transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease;
-}
-
-a.pp-card:hover,
-a.pp-card:focus {
-  border-color: var(--fg);
-  transform: translateY(-2px);
-}
-
-.pp-card .pp-card-title {
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.35rem;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-.pp-card .pp-card-kind {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  opacity: 0.55;
-  white-space: nowrap;
-}
-
-.pp-card .pp-card-body {
-  font-family: 'Newsreader', Georgia, serif;
-  font-size: 1.02rem;
-  line-height: 1.6;
-  margin: 0;
-  opacity: 0.9;
-}
-
-/* ---- Two-tier framing note ---- */
-.pp-tiers {
-  font-family: 'Newsreader', Georgia, serif;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  border-left: 3px solid rgba(128, 128, 128, 0.35);
-  padding: 0.2rem 0 0.2rem 1.25rem;
-  margin: 1.5rem 0;
-  opacity: 0.9;
-}
-
-/* ---- About ---- */
-.pp-about p {
-  font-family: 'Newsreader', Georgia, serif;
-  font-size: 1.1rem;
-  line-height: 1.75;
-  margin-bottom: 1.1em;
-}
+.note h2 { font-size: 30px; }
+.note p { margin: 0 0 10px; }
+.note p:last-child { margin-bottom: 0; }
 
 /* ---- Footer ---- */
-.pp-foot {
-  border-top: 1px solid rgba(128, 128, 128, 0.18);
-  margin-top: 3.5rem;
-  padding-top: 1.5rem;
-  text-align: center;
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 0.9rem;
-  opacity: 0.7;
+footer.foot { margin-top: 48px; border-top: 1px solid var(--line); background: var(--panel); }
+.foot-in { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding-top: 18px; padding-bottom: 26px; font-size: 14px; color: var(--muted); }
+.foot-home {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px;
+  color: var(--ink); text-decoration: none; font-weight: 500; font-size: 15px;
 }
-
-.pp-foot a {
-  color: var(--fg);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+.foot-home .logo { width: 28px; height: 28px; }
+.foot-home:hover, .foot-home:hover .logo { color: var(--link-hover); }
+.foot-in a { color: var(--muted); }
+.foot-links { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.foot-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.foot-rights, .foot-credits { flex-basis: 100%; }
+.foot-credits { font-size: 13px; line-height: 1.5; }
+/* ---- Reading with: people whose feeds this home follows (reading.json, built daily by tools/build_reading.py) ---- */
+.people { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 640px) { .people { grid-template-columns: 1fr 1fr; } }
+.person {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0;
 }
-
-/* ---- Responsive ---- */
-@media (min-width: 620px) {
-  .pp-cards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  body { padding: 2rem 1rem 3rem; }
-  .pp-hero h1.pp-wordmark {
-    font-size: 2.1rem;
-  }
-  .pp-hero .pp-tagline {
-    font-size: 1.1rem;
-  }
-}
+.person-head { display: flex; align-items: center; gap: 12px; }
+.avatar { width: 40px; height: 40px; flex: 0 0 auto; border-radius: 50%; background: var(--pill); object-fit: contain; padding: 4px; }
+.person-head .kind { display: block; font-size: 13px; letter-spacing: 0.3px; color: var(--muted); }
+.person-name { font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.15; color: var(--ink); text-decoration: none; }
+.person-name:hover { color: var(--link); text-decoration: underline; }
+.posts { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.posts:empty { display: none; }
+.posts a { display: block; padding: 6px 0; color: var(--ink); text-decoration: none; font-size: 16px; line-height: 1.35; overflow-wrap: anywhere; }
+.posts a:hover { color: var(--link); text-decoration: underline; }
+.posts time { display: block; font-size: 13px; color: var(--muted); }
+.follow, .reading-note a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: 14px; font-weight: 600; color: var(--link); text-decoration: none; align-self: flex-start; }
+.follow:hover, .reading-note a:hover { text-decoration: underline; }
+.follow svg, .reading-note svg { width: 18px; height: 18px; flex: 0 0 auto; }
+.reading-note { margin: 10px 0 0; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px; }
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to the streams</a>
 
-<div class="pp-hub">
+<!-- #pp-logo is PlayfulProcess's double spiral, brush version (icons/playfulprocess-logo.svg, drawn by tools/logo.py): the logo of this home.
+     #spiral is recursive.eco's mark (apps/landing/recursive-logo.svg, thinned to 130 points),
+     the thinned copy used for the footer "on recursive.eco" way back (the header wears the full file, icons/recursive-logo.svg). #i-* are the stream icons (icons/*.svg). -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="spiral" viewBox="0 0 100 100">
+    <path d="M 50.5 50.0 L 50.5 50.2 L 50.5 50.3 L 50.4 50.5 L 50.3 50.7 L 50.1 50.8 L 49.8 50.8 L 49.6 50.8 L 49.3 50.7 L 49.0 50.5 L 48.8 50.3 L 48.7 49.9 L 48.6 49.5 L 48.7 49.0 L 49.0 48.6 L 49.4 48.2 L 50.0 47.9 L 50.6 47.8 L 51.4 47.9 L 52.1 48.2 L 52.8 48.8 L 53.3 49.6 L 53.6 50.6 L 53.5 51.8 L 53.1 53.0 L 52.4 54.1 L 51.2 55.0 L 49.6 55.6 L 47.8 55.8 L 45.9 55.4 L 44.0 54.4 L 42.4 52.7 L 41.1 50.4 L 40.6 47.6 L 40.9 44.5 L 42.2 41.4 L 44.6 38.5 L 48.0 36.3 L 52.2 35.0 L 57.1 35.0 L 62.2 36.5 L 67.0 39.7 L 71.1 44.6 L 73.8 51.0 L 74.6 58.6 L 73.0 66.7 L 68.8 74.8 L 61.9 81.9 L 52.3 87.2 L 40.7 89.7 L 27.7 88.6 L 17.2 80.8 L 9.7 70.0 L 5.6 57.5 L 5.3 44.4 L 8.9 31.7 L 15.9 20.6 L 25.9 12.0 L 37.9 6.7 L 50.9 5.0 L 63.9 7.2 L 75.7 13.1 L 85.3 22.1 L 91.8 33.4 L 94.8 46.2 L 94.0 59.4 L 89.4 71.7 L 81.5 82.2 L 70.8 89.9 L 58.4 94.2 L 45.3 94.8 L 32.6 91.5 L 21.3 84.7 L 12.5 74.9 L 6.9 63.0 L 5.0 50.0 L 6.9 37.0 L 12.5 25.1 L 21.3 15.3 L 32.6 8.5 L 45.3 5.2 L 58.4 5.8 L 70.8 10.1 L 81.5 17.9 L 89.4 28.3 L 94.0 40.6 L 94.8 53.8 L 91.8 66.6 L 85.3 78.0 L 75.7 87.0 L 63.9 92.8 L 50.9 95.0 L 37.9 93.3 L 25.9 88.0 L 15.9 79.4 L 8.9 68.3 L 5.3 55.6 L 5.6 42.5 L 9.7 30.0 L 17.2 19.2 L 27.5 11.0 L 39.7 6.2 L 52.8 5.1 L 65.7 7.8 L 77.2 14.2 L 86.4 23.6 L 92.5 35.2 L 95.0 48.1 L 93.6 61.2 L 88.5 73.3 L 80.1 83.4 L 69.2 90.7 L 56.6 94.5 L 43.4 94.5 L 30.8 90.7 L 19.9 83.4 L 11.5 73.3 L 6.4 61.2 L 5.0 48.1 L 7.5 35.2 L 13.6 23.6 L 22.8 14.2 L 34.3 7.8 L 47.2 5.1 L 60.3 6.2 L 72.5 11.0 L 82.8 19.2 L 90.3 30.0 L 94.4 42.5 L 95.0 50.0" fill="none" stroke="#9a6fd0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="pp-logo" viewBox="0 0 100 100"><path fill="currentColor" d="M27.8 84.1C27 83.6 25 82.2 23.6 81.1C22.2 80 20.9 78.8 19.7 77.6C18.5 76.3 17.3 75 16.2 73.7C15.1 72.3 14 70.8 13.1 69.3C12.1 67.8 11.2 66.2 10.5 64.6C9.7 62.9 9.1 61.2 8.5 59.5C8 57.8 7.5 56 7.3 54.2C7 52.3 6.8 50.5 6.8 48.6C6.7 46.8 6.9 44.9 7.1 43.1C7.4 41.3 7.8 39.4 8.3 37.6C8.8 35.9 9.5 34.1 10.2 32.4C11 30.7 11.8 29.1 12.8 27.5C13.8 25.9 14.8 24.3 16 22.9C17.1 21.4 18.4 20.1 19.7 18.8C21.1 17.5 22.5 16.3 24 15.1C25.5 14 27 13 28.6 12.1C30.3 11.2 32 10.4 33.7 9.7C35.4 9 37.2 8.4 39 7.9C40.8 7.5 42.6 7.1 44.4 6.9C46.3 6.6 48.4 6.5 50 6.5C51.6 6.5 52.7 6.6 54 6.9C55.3 7.2 56.6 7.6 57.8 8.1C59.1 8.6 60.3 9.2 61.4 10C62.5 10.7 63.6 11.6 64.5 12.5C65.4 13.4 66.3 14.5 67 15.6C67.8 16.7 68.4 17.9 68.9 19.2C69.4 20.4 69.8 21.7 70.1 23C70.4 24.3 70.5 25.7 70.5 27C70.5 28.3 70.4 29.7 70.1 31C69.8 32.3 69.4 33.6 68.9 34.8C68.3 36 67.6 37.2 66.8 38.3C66.1 39.3 65.1 40.3 64.1 41.1C63.2 42 62.1 42.7 60.9 43.4C59.8 44 58.6 44.5 57.4 44.8C56.2 45.2 54.9 45.4 53.7 45.6C52.5 45.7 51.2 45.7 50 45.6C48.8 45.5 47.6 45.2 46.4 44.9C45.3 44.6 44.2 44.1 43.1 43.6C42 43.1 41 42.5 40.1 41.8C39.1 41.2 37.9 40.1 37.4 39.6C36.9 39.1 37.2 39.2 37.2 39C37.2 38.8 37.3 38.6 37.4 38.5C37.5 38.3 37.8 38.2 38 38.2C38.2 38.2 38 38.1 38.5 38.5C39.1 38.8 40.1 39.9 41 40.4C41.9 41 42.9 41.4 43.9 41.8C44.9 42.1 45.9 42.3 46.9 42.4C47.9 42.6 49 42.5 50 42.4C51 42.3 52 42.1 52.9 41.8C53.9 41.5 54.8 41.1 55.6 40.6C56.5 40.1 57.2 39.5 58 38.9C58.7 38.3 59.3 37.6 59.9 36.9C60.5 36.2 61 35.4 61.4 34.6C61.9 33.9 62.2 33 62.5 32.2C62.8 31.4 63.1 30.5 63.2 29.6C63.4 28.8 63.5 27.9 63.5 27C63.5 26.1 63.4 25.2 63.2 24.4C63.1 23.5 62.8 22.6 62.5 21.8C62.1 21 61.7 20.2 61.2 19.5C60.7 18.8 60.2 18.1 59.5 17.5C58.9 16.8 58.2 16.3 57.5 15.8C56.8 15.3 56 14.9 55.2 14.5C54.4 14.2 53.5 13.9 52.6 13.8C51.8 13.6 51.2 13.5 50 13.5C48.8 13.5 46.9 13.6 45.3 13.8C43.8 14 42.2 14.3 40.7 14.7C39.2 15.1 37.7 15.6 36.3 16.2C34.9 16.8 33.4 17.4 32.1 18.2C30.7 19 29.4 19.8 28.2 20.8C26.9 21.7 25.7 22.7 24.6 23.8C23.5 24.9 22.4 26 21.5 27.3C20.5 28.5 19.6 29.8 18.8 31.1C18 32.4 17.2 33.8 16.6 35.2C16 36.7 15.5 38.1 15 39.6C14.6 41.1 14.2 42.7 13.9 44.2C13.6 45.7 13.4 47.3 13.3 48.8C13.1 50.4 13.1 52 13.1 53.6C13.2 55.2 13.3 56.8 13.5 58.4C13.7 59.9 14 61.5 14.5 63.1C14.9 64.7 15.4 66.2 16 67.8C16.7 69.3 17.4 70.8 18.3 72.2C19.1 73.6 20.1 75 21.1 76.3C22.2 77.6 23.4 78.8 24.6 79.9C25.8 81 27.9 82.4 28.6 83C29.3 83.5 28.9 83.2 28.9 83.4C28.9 83.6 28.9 83.8 28.8 83.9C28.7 84.1 28.5 84.2 28.4 84.2C28.2 84.3 28.6 84.7 27.8 84.1ZM72.2 15.9C73 16.4 75 17.8 76.4 18.9C77.8 20 79.1 21.2 80.3 22.4C81.5 23.7 82.7 25 83.8 26.3C84.9 27.7 86 29.2 86.9 30.7C87.9 32.2 88.8 33.8 89.5 35.4C90.3 37.1 90.9 38.8 91.5 40.5C92 42.2 92.5 44 92.7 45.8C93 47.7 93.2 49.5 93.2 51.4C93.3 53.2 93.1 55.1 92.9 56.9C92.6 58.7 92.2 60.6 91.7 62.4C91.2 64.1 90.5 65.9 89.8 67.6C89 69.3 88.2 70.9 87.2 72.5C86.2 74.1 85.2 75.7 84 77.1C82.9 78.6 81.6 79.9 80.3 81.2C78.9 82.5 77.5 83.7 76 84.9C74.5 86 73 87 71.4 87.9C69.7 88.8 68 89.6 66.3 90.3C64.6 91 62.8 91.6 61 92.1C59.2 92.5 57.4 92.9 55.6 93.1C53.7 93.4 51.6 93.5 50 93.5C48.4 93.5 47.3 93.4 46 93.1C44.7 92.8 43.4 92.4 42.2 91.9C40.9 91.4 39.7 90.8 38.6 90C37.5 89.3 36.4 88.4 35.5 87.5C34.6 86.6 33.7 85.5 33 84.4C32.2 83.3 31.6 82.1 31.1 80.8C30.6 79.6 30.2 78.3 29.9 77C29.6 75.7 29.5 74.3 29.5 73C29.5 71.7 29.6 70.3 29.9 69C30.2 67.7 30.6 66.4 31.1 65.2C31.7 64 32.4 62.8 33.2 61.7C33.9 60.7 34.9 59.7 35.9 58.9C36.8 58 37.9 57.3 39.1 56.6C40.2 56 41.4 55.5 42.6 55.2C43.8 54.8 45.1 54.6 46.3 54.4C47.5 54.3 48.8 54.3 50 54.4C51.2 54.5 52.4 54.8 53.6 55.1C54.7 55.4 55.8 55.9 56.9 56.4C58 56.9 59 57.5 59.9 58.2C60.9 58.8 62.1 59.9 62.6 60.4C63.1 60.9 62.8 60.8 62.8 61C62.8 61.2 62.7 61.4 62.6 61.5C62.5 61.7 62.2 61.8 62 61.8C61.8 61.8 62 61.9 61.5 61.5C60.9 61.2 59.9 60.1 59 59.6C58.1 59 57.1 58.6 56.1 58.2C55.1 57.9 54.1 57.7 53.1 57.6C52.1 57.4 51 57.5 50 57.6C49 57.7 48 57.9 47.1 58.2C46.1 58.5 45.2 58.9 44.4 59.4C43.5 59.9 42.8 60.5 42 61.1C41.3 61.7 40.7 62.4 40.1 63.1C39.5 63.8 39 64.6 38.6 65.4C38.1 66.1 37.8 67 37.5 67.8C37.2 68.6 36.9 69.5 36.8 70.4C36.6 71.2 36.5 72.1 36.5 73C36.5 73.9 36.6 74.8 36.8 75.6C36.9 76.5 37.2 77.4 37.5 78.2C37.9 79 38.3 79.8 38.8 80.5C39.3 81.2 39.8 81.9 40.5 82.5C41.1 83.2 41.8 83.7 42.5 84.2C43.2 84.7 44 85.1 44.8 85.5C45.6 85.8 46.5 86.1 47.4 86.2C48.2 86.4 48.8 86.5 50 86.5C51.2 86.5 53.1 86.4 54.7 86.2C56.2 86 57.8 85.7 59.3 85.3C60.8 84.9 62.3 84.4 63.7 83.8C65.1 83.2 66.6 82.6 67.9 81.8C69.3 81 70.6 80.2 71.8 79.2C73.1 78.3 74.3 77.3 75.4 76.2C76.5 75.1 77.6 74 78.5 72.7C79.5 71.5 80.4 70.2 81.2 68.9C82 67.6 82.8 66.2 83.4 64.8C84 63.3 84.5 61.9 85 60.4C85.4 58.9 85.8 57.3 86.1 55.8C86.4 54.3 86.6 52.7 86.7 51.2C86.9 49.6 86.9 48 86.9 46.4C86.8 44.8 86.7 43.2 86.5 41.6C86.3 40.1 86 38.5 85.5 36.9C85.1 35.3 84.6 33.8 84 32.2C83.3 30.7 82.6 29.2 81.7 27.8C80.9 26.4 79.9 25 78.9 23.7C77.8 22.4 76.6 21.2 75.4 20.1C74.2 19 72.1 17.6 71.4 17C70.7 16.5 71.1 16.8 71.1 16.6C71.1 16.4 71.1 16.2 71.2 16.1C71.3 15.9 71.5 15.8 71.6 15.8C71.8 15.7 71.4 15.3 72.2 15.9Z"/></symbol>
+  <symbol id="i-practice" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-2.5 3-2.5 8 0 11 2.5-3 2.5-8 0-11Z"/><path d="M12 16c-4 0-7-2.5-8-6 3.5-.5 6.5 1.5 8 6ZM12 16c4 0 7-2.5 8-6-3.5-.5-6.5 1.5-8 6Z"/><path d="M5.5 19.5h13"/></g></symbol>
+  <symbol id="i-theory" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5ZM12 6.5v13"/></g></symbol>
+  <symbol id="i-life" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19.5C6 16 3.5 12.5 3.5 9.5 3.5 7 5.5 5 8 5c1.8 0 3.2 1 4 2.5C12.8 6 14.2 5 16 5c2.5 0 4.5 2 4.5 4.5 0 3-2.5 6.5-8.5 10Z"/></g></symbol>
+  <symbol id="i-conversations" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4h9A1.5 1.5 0 0 1 15 5.5v5a1.5 1.5 0 0 1-1.5 1.5H8l-3 2.5V12h-.5A1.5 1.5 0 0 1 3 10.5v-5A1.5 1.5 0 0 1 4.5 4Z"/><path d="M16.5 8.5h3A1.5 1.5 0 0 1 21 10v5a1.5 1.5 0 0 1-1.5 1.5H19V19l-3-2.5h-5A1.5 1.5 0 0 1 9.5 15v-1.5"/></g></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="7" cy="17.5" rx="2.5" ry="2"/><ellipse cx="17" cy="15.5" rx="2.5" ry="2"/><path d="M9.5 17.5V6.5l10-2.5v11.5"/><path d="M9.5 10l10-2.5"/></g></symbol>
+  <symbol id="i-making" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 4.5l3 3L10 17l-4 1 1-4Z"/><path d="M14.5 6.5l3 3"/><path d="M3.5 21c1-1 2-1 3 0s2 1 3 0"/></g></symbol>
+  <symbol id="i-family" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12.5h18c0 4.5-4 7.5-9 7.5s-9-3-9-7.5Z"/><path d="M5.2 16h13.6"/><path d="M4.9 12.5a1.6 2.4 0 0 1 3.2 0M10.2 12.5a1.8 3 0 0 1 3.6 0M15.9 12.5a1.6 2.4 0 0 1 3.2 0"/></g></symbol>
+  <symbol id="i-writing" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-7 0-12 4.5-13.5 12.5l1 1C15.5 16 20 11 20 4Z"/><path d="M4 20l9.5-9.5"/></g></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.64 5.64l1.76 1.76M16.6 16.6l1.76 1.76M5.64 18.36l1.76-1.76M16.6 7.4l1.76-1.76"/></g></symbol>
+  <symbol id="i-waves" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.5c3-2.5 6-2.5 9 0s6 2.5 9 0"/><path d="M7 15a5 5 0 0 1 10 0M9.5 15a2.5 2.5 0 0 1 5 0"/><path d="M2 20a5 5 0 0 1 10 0M4.5 20a2.5 2.5 0 0 1 5 0M12 20a5 5 0 0 1 10 0M14.5 20a2.5 2.5 0 0 1 5 0"/></g></symbol>
+  <symbol id="i-seed" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="16.5" rx="5" ry="3.5"/><path d="M12 13V8.5"/><path d="M12 9.5c-.8-2.6-3-3.9-5.5-3.5.6 2.5 2.9 3.8 5.5 3.5Z"/><path d="M12 8.5c.8-2.4 2.8-3.6 5-3.2-.5 2.3-2.6 3.5-5 3.2Z"/></g></symbol>
+  <symbol id="i-water" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5S6 10 6 14.5a6 6 0 0 0 12 0C18 10 12 3.5 12 3.5Z"/><path d="M9.25 14.75a2.75 2.75 0 0 0 2.75 2.75"/></g></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9.5" r="6.5"/><path d="M12 21v-9M12 15.5l-2.75-2.75M12 13.75l2.25-2.25M8.5 21h7"/></g></symbol>
+  <symbol id="i-spiral" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 12.75a1.5 1.5 0 0 1 3 0 3 3 0 0 1-6 0 4.5 4.5 0 0 1 9 0 6 6 0 0 1-12 0 7.5 7.5 0 0 1 15 0"/></g></symbol>
+  <symbol id="i-double-spiral" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.83 19.97A9.5 9.5 0 0 1 12 2.5a4 4 0 1 1-2.83 6.83M17.17 4.03A9.5 9.5 0 0 1 12 21.5a4 4 0 1 1 2.83-6.83"/></g></symbol>
+  <symbol id="i-reading" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.5" cy="14.5" r="3.5"/><circle cx="17.5" cy="14.5" r="3.5"/><path d="M10 14.5c1.2-1 2.8-1 4 0"/><path d="M3 14l1.5-6.5h2M21 14l-1.5-6.5h-2"/></g></symbol>
+  <symbol id="i-rss" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 11a8 8 0 0 1 8 8M5 5a14 14 0 0 1 14 14"/><circle cx="6" cy="18" r="1.2" fill="currentColor"/></g></symbol>
+</svg>
 
-  <div class="pp-hero">
-    <h1 class="pp-wordmark">PlayfulProcess</h1>
-    <p class="pp-tagline">Making meaning is a process, not a product. Books, essays, and tools for tending the fire we&rsquo;ve been handed.</p>
-    <nav class="pp-nav">
-      <a href="#projects">The work</a>
-      <a href="https://lifeisprocess.substack.com" target="_blank" rel="noopener">Substack</a>
-      <a href="#about">About</a>
-    </nav>
-  </div>
-
-  <section id="projects">
-    <h2 class="pp-h">The work, in three places</h2>
-    <div class="pp-cards">
-      <div class="pp-card">
-        <div class="pp-card-title">Books <span class="pp-card-kind">In the studio</span></div>
-        <p class="pp-card-body">A twelve-book architecture on freedom, responsibility, stories, and fire &mdash; written in the open, published here as each one is ready.</p>
-      </div>
-      <a class="pp-card" href="https://lifeisprocess.substack.com" target="_blank" rel="noopener">
-        <div class="pp-card-title">Life Is Process <span class="pp-card-kind">Substack</span></div>
-        <p class="pp-card-body">Essays as they&rsquo;re written &mdash; process, freedom, caring, and the questions the books grow from.</p>
-      </a>
-      <a class="pp-card" href="https://recursive.eco" target="_blank" rel="noopener">
-        <div class="pp-card-title">recursive.eco <span class="pp-card-kind">Platform</span></div>
-        <p class="pp-card-body">A place to make sense together with grammars &mdash; tarot, I&nbsp;Ching, story decks. The tools the books point toward.</p>
-      </a>
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <a class="eco-mark" href="https://recursive.eco/" title="recursive.eco: home" aria-label="recursive.eco: home"><img src="icons/recursive-logo.svg" width="34" height="34" alt="" aria-hidden="true"></a>
+      <a class="brand" href="https://playfulprocess.github.io/" title="PlayfulProcess: home"><svg class="logo" aria-hidden="true" focusable="false"><use href="#pp-logo"/></svg><span class="name">PlayfulProcess</span></a>
+      <nav class="streams" aria-label="Streams">
+        <ul>
+          <li><a href="#practice">Practice</a></li>
+          <li><a href="#theory">Theory</a></li>
+          <li><a href="#life">Life</a></li>
+          <li><a href="#conversations">Conversations</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#making">Making</a></li>
+          <li><a href="#family">Family</a></li>
+          <li><a href="#reading">Reading</a></li>
+        </ul>
+      </nav>
     </div>
-    <p class="pp-tiers"><strong>PlayfulProcess</strong> is the person and the umbrella &mdash; the writing and the point of view. <strong>recursive.eco</strong> is the platform it builds: responsibility infrastructure you can actually use. One is the story; the other is the tool the story hands you.</p>
-  </section>
-
-  <section class="pp-about" id="about">
-    <h2 class="pp-h">About</h2>
-    <p>PlayfulProcess is the pen name of a writer and builder &mdash; a former Goldman Sachs equity research analyst turned social-work student, now making open-source tools and open books. The through-line is a single conviction: <strong>meaning is something we make together, over time, and the containers that hold that work &mdash; families, stories, communities, commons &mdash; can be built on purpose.</strong></p>
-    <p>The books are the argument. <a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco</a> is the argument made usable &mdash; infrastructure for making sense together with symbolic systems, or <em>grammars</em>: tarot decks, I Ching readings, story sets, interpretation frameworks. The Substack, <a href="https://lifeisprocess.substack.com" target="_blank" rel="noopener"><em>Life Is Process</em></a>, is where the thinking happens in public, one essay at a time.</p>
-    <p>Everything here is the author&rsquo;s own work, &copy; PlayfulProcess &mdash; all rights reserved. You&rsquo;re welcome to read, link, and quote briefly with attribution; please ask before republishing, adapting, or using any of it to train machine-learning models.</p>
-  </section>
-
-  <div class="pp-foot">
-    <a href="https://lifeisprocess.substack.com" target="_blank" rel="noopener">Substack</a> &nbsp;&middot;&nbsp;
-    <a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco</a> &nbsp;&middot;&nbsp;
-    <a href="https://github.com/PlayfulProcess" target="_blank" rel="noopener">GitHub</a><br>
-    <span style="opacity:0.8">By PlayfulProcess with Claude &middot; &copy; PlayfulProcess &middot; All rights reserved</span>
   </div>
+</header>
 
+<div class="wrap">
+  <section class="intro" aria-labelledby="pp-h">
+    <h1 id="pp-h">PlayfulProcess</h1>
+    <p class="tagline">Making meaning is a process, not a product.</p>
+    <p class="bio slot">[Your bio line: one sentence, in your words]</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="https://flow.recursive.eco/library?by=%40playfulprocess" target="_blank" rel="noopener"><svg class="bicon" aria-hidden="true" focusable="false"><use href="#spiral"/></svg>Everything by PlayfulProcess in Explore</a>
+      <a class="btn btn-quiet" href="https://flow.recursive.eco/library/altar/f18e2415-315c-43b7-ae93-d09c8892e181" target="_blank" rel="noopener"><svg class="bicon" aria-hidden="true" focusable="false"><use href="#pp-logo"/></svg>Profile on recursive.eco</a>
+    </div>
+    <p class="newtab-note">Links to other sites open in a new tab.</p>
+  </section>
+
+  <main id="main">
+    <section id="practice" aria-labelledby="practice-h">
+      <h2 id="practice-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-practice"/></svg>Practice</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-fan"><img class="c0" src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/golden-dawn-book-t-tarot/RWS_Tarot_02_High_Priestess.jpg" alt="The High Priestess, Rider-Waite-Smith tarot card" width="1104" height="1920" loading="lazy" decoding="async"><img class="c1" src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/golden-dawn-book-t-tarot/RWS_Tarot_00_Fool.jpg" alt="The Fool, Rider-Waite-Smith tarot card" width="1104" height="1920" loading="lazy" decoding="async"><img class="c2" src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/golden-dawn-book-t-tarot/RWS_Tarot_17_Star.jpg" alt="The Star, Rider-Waite-Smith tarot card" width="1104" height="1920" loading="lazy" decoding="async"></div>
+          <span class="kind">Tarot</span>
+          <a class="title" href="https://tarot.recursive.eco/" target="_blank" rel="noopener">The Recursive Tarot</a>
+          <p>An open genealogy of the cards</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/iching-tohaku-pines.jpg" alt="Hasegawa T&#333;haku&rsquo;s Pine Trees: pines in ink, most of them half lost in mist" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">I Ching</span>
+          <a class="title" href="https://iching.recursive.eco/" target="_blank" rel="noopener">The Recursive I Ching</a>
+          <p>The 64 hexagrams, read as a mirror, not a fate</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/astrology-flammarion.jpg" alt="The Flammarion engraving: a traveller on his knees reaches through the edge of the starry sky" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Astrology</span>
+          <a class="title" href="https://astro.recursive.eco/" target="_blank" rel="noopener">The Recursive Astrology</a>
+          <p>A public-domain library of the sky&rsquo;s history</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="theory" aria-labelledby="theory-h">
+      <h2 id="theory-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-theory"/></svg>Theory</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/studies-spiral.jpg" alt="The Studies page: a spiral reading How: Recursive, Why: Make sense, What: Make Belief" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Studies</span>
+          <a class="title" href="https://recursive.eco/pages/studies.html" target="_blank" rel="noopener">Studies</a>
+          <p>The study sites, recursive patterns and philosophical studies, on one page</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/learning-page.jpg" alt="The Recursive Eco-Improvement home page" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Learning</span>
+          <a class="title" href="https://learning.recursive.eco/" target="_blank" rel="noopener">Recursive Learning</a>
+          <p>Recursive eco-improvement: explorations in adaptive alignment</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/kant-essay.jpg" alt="The essay&rsquo;s opening, with Kant&rsquo;s line on immaturity" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Essay</span>
+          <a class="title" href="https://recursive.eco/pages/kant-essay.html" target="_blank" rel="noopener">On Recursive.Eco and the Courage to Think</a>
+          <p>Kant&rsquo;s dare to know</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="life" aria-labelledby="life-h">
+      <h2 id="life-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-life"/></svg>Life</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/repatterning-fludd.jpg" alt="Robert Fludd&rsquo;s 1617 engraving: Nature among the spheres, Art chained to her" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Repatterning</span>
+          <a class="title" href="https://repatterning.recursive.eco/" target="_blank" rel="noopener">Recursive Repatterning</a>
+          <p>An open library of the ways people have organized feeling</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/will-to-hope.jpg" alt="The Will to Hope page, opening with its epigraph" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Book</span>
+          <a class="title" href="https://recursive.eco/pages/will-to-hope.html" target="_blank" rel="noopener">The Will to Hope</a>
+          <p>The book&rsquo;s five doors on one page</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="conversations" aria-labelledby="conversations-h">
+      <h2 id="conversations-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-conversations"/></svg>Conversations</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/reflections-labyrinth.jpg" alt="A black-and-white labyrinth, from the Recursive Reflections page" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Dialogues</span>
+          <a class="title" href="https://recursive.eco/pages/recursive-reflections.html" target="_blank" rel="noopener">Recursive Reflections</a>
+          <p>Two voices, Recursive and Eco</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/flow-image-gen/1789966731567-r0woqzg8vt.png" alt="Cartoon: a crowd of smiling potatoes piled on the Earth under a startled crescent moon, the cover of HOT POTATO" width="1248" height="832" loading="lazy" decoding="async"></div>
+          <span class="kind">Film</span>
+          <a class="title" href="https://recursive.eco/potato" target="_blank" rel="noopener">HOT POTATO: The Chosen Alien Invasion</a>
+          <p>A film assembled from found footage</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="music" aria-labelledby="music-h">
+      <h2 id="music-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-music"/></svg>Music</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="https://i.ytimg.com/vi/HO1manZ2wek/maxresdefault.jpg" alt="Gilberto Gil seated with a guitar on a dark stage, from the live video of N&atilde;o Tenho Medo da Morte" width="1280" height="720" loading="lazy" decoding="async"></div>
+          <span class="kind">Playlist</span>
+          <a class="title" href="https://recursive.eco/view/f8a7acff-2f1d-436d-92f3-834fdc8b35aa?focus" target="_blank" rel="noopener">Shaiva Tantra Brasileiro</a>
+          <p>Brazilian music in collections, from samba and ax&eacute; to m&uacute;sica de terreiro</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="making" aria-labelledby="making-h">
+      <h2 id="making-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-making"/></svg>Making</h2>
+      <ul class="items">
+        <li class="item coming">
+          <div class="thumb thumb-icon" aria-hidden="true"><svg focusable="false"><use href="#i-tree"/></svg></div>
+          <span class="kind">Spirals</span>
+          <span class="title-row"><span class="sr-only">Coming: </span><a class="title" href="https://recursive.eco/pages/four-makings.html" target="_blank" rel="noopener">Make believe &middot; make sense &middot; make meaning &middot; make real</a><span class="badge" aria-hidden="true">coming</span></span>
+          <p>The four makings, a tree of spirals</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/spiral-lab.jpg" alt="The spiral lab: a spiral being drawn beside its rhythm controls" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Spirals</span>
+          <a class="title" href="https://recursive.eco/spiral/logo-generator.html" target="_blank" rel="noopener">The spiral lab</a>
+          <p>Where every spiral here comes from</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/patterns-tiles.jpg" alt="Pattern tiles: triangles in pink, blue, sand and cream" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Patterns</span>
+          <a class="title" href="https://patterns.recursive.eco/" target="_blank" rel="noopener">Recursive Pattern Tiles</a>
+          <p>96 recursive tile patterns to colour and play with</p>
+        </li>
+        <li class="item">
+          <div class="thumb thumb-card"><img src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/golden-dawn-book-t-tarot/RWS_Tarot_10_Wheel_of_Fortune.jpg" alt="The Wheel of Fortune, Rider-Waite-Smith tarot card" width="1104" height="1920" loading="lazy" decoding="async"></div>
+          <span class="kind">Tarot</span>
+          <a class="title" href="https://recursive.eco/pages/make-a-tarot-deck.html" target="_blank" rel="noopener">Make your own tarot deck</a>
+          <p>Start from a public-domain deck and make it yours</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="family" aria-labelledby="family-h">
+      <h2 id="family-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-family"/></svg>Family</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-banner"><img src="https://recursive.eco/public/recursive-eco-banner-transparent-1500x500.png" alt="The recursive.eco spiral, in purple" width="1500" height="500" loading="lazy" decoding="async"></div>
+          <span class="kind">Kids</span>
+          <a class="title" href="https://recursive.eco/pages/youtube-for-kids.html" target="_blank" rel="noopener">YouTube for kids, without the rabbit hole</a>
+          <p>Only the videos you chose: no recommendations, no comments, no ads</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="writing" aria-labelledby="writing-h">
+      <h2 id="writing-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-writing"/></svg>Writing</h2>
+      <ul class="items">
+        <li class="item">
+          <div class="thumb thumb-photo"><img src="img/thumbs/life-is-process.jpg" alt="The Life Is Process card on Substack, with its spiral" width="640" height="360" loading="lazy" decoding="async"></div>
+          <span class="kind">Substack</span>
+          <a class="title" href="https://lifeisprocess.substack.com/" target="_blank" rel="noopener">Life Is Process</a>
+          <p>Essays, as they are written</p>
+        </li>
+        <li class="item coming">
+          <div class="thumb thumb-icon" aria-hidden="true"><svg focusable="false"><use href="#i-writing"/></svg></div>
+          <span class="kind">Essays</span>
+          <span class="title-row"><span class="title-plain">Essays in progress</span><span class="badge">coming</span></span>
+          <p class="slot">[Which essays, when they are ready]</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="reading" aria-labelledby="reading-h">
+      <h2 id="reading-h"><svg class="sicon" aria-hidden="true" focusable="false"><use href="#i-reading"/></svg>Reading with</h2>
+      <ul class="people">
+        <li class="person" data-id="playfulprocess">
+          <div class="person-head">
+            <img class="avatar" src="icons/playfulprocess-logo.svg" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://www.playfulprocess.com/" target="_blank" rel="noopener">PlayfulProcess</a><span class="kind">Writing</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from PlayfulProcess"></ol>
+          <a class="follow" href="https://www.playfulprocess.com/feed" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+        <li class="person" data-id="recursive-eco">
+          <div class="person-head">
+            <img class="avatar" src="icons/recursive-logo.svg" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://recursive.eco/" target="_blank" rel="noopener">recursive.eco</a><span class="kind">Built in the open</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from recursive.eco"></ol>
+          <a class="follow" href="feed.xml"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+        <li class="person" data-id="martin-fowler">
+          <div class="person-head">
+            <img class="avatar" src="https://martinfowler.com/favicon.ico" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://martinfowler.com/" target="_blank" rel="noopener">Martin Fowler</a><span class="kind">Software design</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from Martin Fowler"></ol>
+          <a class="follow" href="https://martinfowler.com/feed.atom" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+        <li class="person" data-id="john-onolan">
+          <div class="person-head">
+            <img class="avatar" src="https://john.onolan.org/favicon.ico" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <div><a class="person-name" href="https://john.onolan.org/" target="_blank" rel="noopener">John O&rsquo;Nolan</a><span class="kind">Ghost, open source</span></div>
+          </div>
+          <ol class="posts" aria-label="Latest from John O&rsquo;Nolan"></ol>
+          <a class="follow" href="https://john.onolan.org/rss/" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>Follow</a>
+        </li>
+      </ul>
+      <p class="reading-note">Newest first, refreshed once a day. <a href="feed.xml"><svg aria-hidden="true" focusable="false"><use href="#i-rss"/></svg>This site&rsquo;s own feed</a></p>
+    </section>
+
+    <section id="contribute" aria-labelledby="contribute-h">
+      <div class="note">
+        <h2 id="contribute-h">Contribute</h2>
+        <p>The study sites are open repositories on GitHub. To suggest a correction, a source or a new item, open an issue or a pull request on
+          <a href="https://github.com/PlayfulProcess/recursive-tarot" target="_blank" rel="noopener">tarot</a>,
+          <a href="https://github.com/PlayfulProcess/recursive-iching" target="_blank" rel="noopener">I&nbsp;Ching</a>,
+          <a href="https://github.com/PlayfulProcess/recursive-astrology" target="_blank" rel="noopener">astrology</a>,
+          <a href="https://github.com/PlayfulProcess/recursive-learning" target="_blank" rel="noopener">learning</a>,
+          <a href="https://github.com/PlayfulProcess/recursive-repatterning" target="_blank" rel="noopener">repatterning</a>
+          or <a href="https://github.com/PlayfulProcess/PlayfulProcess.github.io" target="_blank" rel="noopener">this site</a>. Each repository states its own licence.</p>
+        <p class="slot">[A few lines in your words: what kind of help you would love]</p>
+      </div>
+    </section>
+
+    <section id="traditions" aria-labelledby="traditions-h">
+      <div class="note">
+        <h2 id="traditions-h">How I work with traditions</h2>
+        <p class="slot">[A few lines, in your words: whose texts the series carry, where your own voice begins, and how teachers are credited.]</p>
+      </div>
+    </section>
+  </main>
 </div>
 
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="foot-home" href="https://playfulprocess.github.io/"><svg class="logo" aria-hidden="true" focusable="false"><use href="#pp-logo"/></svg>PlayfulProcess</a>
+    <a class="eco" href="https://recursive.eco/"><svg aria-hidden="true" focusable="false"><use href="#spiral"/></svg>on recursive.eco</a>
+    <span class="foot-links">
+      <a href="ways-of-working.html">Our ways of working</a>
+      <a href="https://lifeisprocess.substack.com/" target="_blank" rel="noopener">Substack</a>
+      <a href="https://github.com/PlayfulProcess" target="_blank" rel="noopener">GitHub</a>
+      <a href="feed.xml">Feed</a>
+    </span>
+    <span class="foot-credits">Pictures: Rider-Waite-Smith tarot (1909), Hasegawa T&#333;haku&rsquo;s <cite>Pine Trees</cite> (Tokyo National Museum) and the Flammarion engraving (1888), all public domain via <a href="https://commons.wikimedia.org/wiki/File:Hasegawa_Tohaku_-_Pine_Trees_(Sh%C5%8Drin-zu_by%C5%8Dbu)_-_right_hand_screen.jpg" target="_blank" rel="noopener">Wikimedia</a> <a href="https://commons.wikimedia.org/wiki/File:Flammarion.jpg" target="_blank" rel="noopener">Commons</a>; Robert Fludd, <cite>Integrae naturae speculum artisque imago</cite> (1617), <a href="https://commons.wikimedia.org/wiki/File:Robert_Fludd,_Integra_naturae_speculum_artisque_imago.jpg" target="_blank" rel="noopener">Wellcome Collection</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. The other thumbnails are pictures of the linked pages.</span>
+    <span class="foot-rights">&copy; 2026 PlayfulProcess. The writing on this site is all rights reserved (see <a href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/blob/main/LICENSE" target="_blank" rel="noopener">LICENSE</a>).</span>
+  </div>
+</footer>
+<script>
+/* Reading with: fill each person's latest posts from reading.json (same site; built daily). */
+(function () {
+  var fmt = function (iso) {
+    var d = new Date(iso), now = new Date();
+    var o = { month: 'short', day: 'numeric' };
+    if (d.getFullYear() !== now.getFullYear()) o.year = 'numeric';
+    return d.toLocaleDateString(document.documentElement.lang || 'en', o);
+  };
+  fetch('reading.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (data) {
+    if (!data) return;
+    data.sources.forEach(function (s) {
+      var list = document.querySelector('.person[data-id="' + s.id + '"] .posts');
+      if (!list) return;
+      s.items.forEach(function (it) {
+        if (!/^https:\/\//.test(it.url)) return;
+        var li = document.createElement('li'), a = document.createElement('a'), t = document.createElement('time');
+        a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = it.title;
+        t.dateTime = it.date; t.textContent = fmt(it.date);
+        a.appendChild(t); li.appendChild(a); list.appendChild(li);
+      });
+    });
+  }).catch(function () {});
+})();
+</script>
 </body>
 </html>
