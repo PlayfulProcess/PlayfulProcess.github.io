@@ -1,0 +1,105 @@
+{
+ "newest": "2026-10-08T02:16:24Z",
+ "sources": [
+  {
+   "id": "playfulprocess",
+   "name": "PlayfulProcess",
+   "kind": "Writing",
+   "site": "https://www.playfulprocess.com/",
+   "icon": "icons/playfulprocess-logo.svg",
+   "feed": "https://www.playfulprocess.com/feed",
+   "items": [
+    {
+     "title": "Experience is Process",
+     "url": "https://www.playfulprocess.com/p/experience-is-process",
+     "date": "2026-08-14T20:31:36Z"
+    },
+    {
+     "title": "My Playful Process with DBT for Kids",
+     "url": "https://www.playfulprocess.com/p/my-playful-process-with-dbt-for-kids",
+     "date": "2026-01-14T18:49:15Z"
+    },
+    {
+     "title": "Tarot is Process 2: Creating Your Own Maps",
+     "url": "https://www.playfulprocess.com/p/tarot-is-process-2-creating-your",
+     "date": "2025-12-29T14:26:24Z"
+    }
+   ]
+  },
+  {
+   "id": "recursive-eco",
+   "name": "recursive.eco",
+   "kind": "Built in the open",
+   "site": "https://recursive.eco/",
+   "icon": "icons/recursive-logo.svg",
+   "feed": "feed.xml",
+   "items": [
+    {
+     "title": "reversed meanings only where a source gives them (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b56c925130ae5468934ff57f134db99664db2f13",
+     "date": "2026-10-08T02:16:24Z"
+    },
+    {
+     "title": "sources and coherence — Farley, open-access citations, … (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/cc4de131380b39b730f64bf6bc3c9a5c2a67c531",
+     "date": "2026-10-07T21:54:34Z"
+    },
+    {
+     "title": "Coherence list for PlayfulProcess + CHANGELOG (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/d1e8d3a40ca3874e46aee452c544e51b74a4aed1",
+     "date": "2026-10-07T18:13:36Z"
+    }
+   ]
+  },
+  {
+   "id": "martin-fowler",
+   "name": "Martin Fowler",
+   "kind": "Software design",
+   "site": "https://martinfowler.com/",
+   "icon": "https://martinfowler.com/favicon.ico",
+   "feed": "https://martinfowler.com/feed.atom",
+   "items": [
+    {
+     "title": "Fragments: October 4",
+     "url": "https://martinfowler.com/fragments/2026-10-04.html",
+     "date": "2026-10-05T04:28:00Z"
+    },
+    {
+     "title": "Principles for effective slides",
+     "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
+     "date": "2026-09-30T14:14:00Z"
+    },
+    {
+     "title": "Bliki: Sensible Default",
+     "url": "https://martinfowler.com/bliki/SensibleDefault.html",
+     "date": "2026-09-29T13:43:00Z"
+    }
+   ]
+  },
+  {
+   "id": "john-onolan",
+   "name": "John O'Nolan",
+   "kind": "Ghost, open source",
+   "site": "https://john.onolan.org/",
+   "icon": "https://john.onolan.org/favicon.ico",
+   "feed": "https://john.onolan.org/rss/",
+   "items": [
+    {
+     "title": "I built a CLI for Ghost",
+     "url": "https://john.onolan.org/i-built-a-cli-for-ghost/",
+     "date": "2026-03-23T07:20:35Z"
+    },
+    {
+     "title": "Open Source in the age of AI",
+     "url": "https://john.onolan.org/open-source-in-the-age-of-ai/",
+     "date": "2026-02-26T17:28:52Z"
+    },
+    {
+     "title": "I'm making an RSS reader",
+     "url": "https://john.onolan.org/making-an-rss-reader/",
+     "date": "2025-12-05T00:00:20Z"
+    }
+   ]
+  }
+ ]
+}

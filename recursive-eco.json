@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "shell": {
+    "home": "https://playfulprocess.github.io/",
+    "colors": { "background": "#f1eaf9", "text": "#2e1846", "accent": "#5b2a91" },
+    "font": "Cormorant Garamond",
+    "nav": [
+      { "label": "Practice", "href": "https://playfulprocess.github.io/#practice" },
+      { "label": "Theory", "href": "https://playfulprocess.github.io/#theory" },
+      { "label": "Life", "href": "https://playfulprocess.github.io/#life" },
+      { "label": "Conversations", "href": "https://playfulprocess.github.io/#conversations" },
+      { "label": "Music", "href": "https://playfulprocess.github.io/#music" },
+      { "label": "Making", "href": "https://playfulprocess.github.io/#making" },
+      { "label": "Family", "href": "https://playfulprocess.github.io/#family" },
+      { "label": "Writing", "href": "https://playfulprocess.github.io/#writing" },
+      { "label": "Everything", "href": "https://flow.recursive.eco/library?by=%40playfulprocess" }
+    ],
+    "footer": {
+      "text": "PlayfulProcess on recursive.eco",
+      "links": [
+        { "label": "Home", "href": "https://playfulprocess.github.io/" },
+        { "label": "Life Is Process", "href": "https://lifeisprocess.substack.com/" },
+        { "label": "GitHub", "href": "https://github.com/PlayfulProcess" }
+      ]
+    }
+  }
+}
