@@ -5,216 +5,216 @@
   <link rel="alternate" type="text/html" href="https://playfulprocess.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://playfulprocess.github.io/feed.xml"/>
   <id>https://playfulprocess.github.io/</id>
-  <updated>2026-10-08T02:16:24Z</updated>
+  <updated>2026-10-14T02:17:31Z</updated>
   <author><name>PlayfulProcess</name></author>
   <entry>
-    <title>reversed meanings only where a source gives them (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b56c925130ae5468934ff57f134db99664db2f13"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/b56c925130ae5468934ff57f134db99664db2f13</id>
-    <updated>2026-10-08T02:16:24Z</updated>
+    <title>Merge main into the trump-order course; rebuild search index and meta… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/4be725f07ec0dd62eebba77996f5e2a88373035b"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/4be725f07ec0dd62eebba77996f5e2a88373035b</id>
+    <updated>2026-10-14T02:17:31Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>sources and coherence — Farley, open-access citations, … (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/cc4de131380b39b730f64bf6bc3c9a5c2a67c531"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/cc4de131380b39b730f64bf6bc3c9a5c2a67c531</id>
-    <updated>2026-10-07T21:54:34Z</updated>
+    <title>The Changing-Lines Lens: a draft course reading the I Ching one line … (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/6a35ca451ff1300e9e88e6a9c0b8a5d302ac551b"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/6a35ca451ff1300e9e88e6a9c0b8a5d302ac551b</id>
+    <updated>2026-10-14T02:11:44Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Coherence list for PlayfulProcess + CHANGELOG (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/d1e8d3a40ca3874e46aee452c544e51b74a4aed1"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/d1e8d3a40ca3874e46aee452c544e51b74a4aed1</id>
-    <updated>2026-10-07T18:13:36Z</updated>
+    <title>Ontoject study: the Trickster between every card, Reversed: hubris, s… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/53126ac2de485eed1bbb2f197d19add2313b3c39"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/53126ac2de485eed1bbb2f197d19add2313b3c39</id>
+    <updated>2026-10-14T02:00:51Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Coherence, mechanical joins only: one name per view, one date per fac… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/7e50bf5be5ea9c0d6d4bb3c05c175ae730f0d4ba"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/7e50bf5be5ea9c0d6d4bb3c05c175ae730f0d4ba</id>
-    <updated>2026-10-07T18:12:28Z</updated>
+    <title>Study: The Ontoject, one life (an ontogenetic reading of the trumps) (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b158afb8e8616fdd7ea0e50913282d5ad438c32d"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/b158afb8e8616fdd7ea0e50913282d5ad438c32d</id>
+    <updated>2026-10-14T01:51:27Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Open-access sources: Depaulis 1984 on Gallica, IPCS PS001, Pratesi 19… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/ed2b545e72decd81202fb1a2723fdae7aeab045c"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/ed2b545e72decd81202fb1a2723fdae7aeab045c</id>
-    <updated>2026-10-07T17:50:06Z</updated>
+    <title>Course: The Order of the Trumps (who set the order, what it meant, th… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/6c652e0153ad51ff81f2a1247a9d8d60812c8b84"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/6c652e0153ad51ff81f2a1247a9d8d60812c8b84</id>
+    <updated>2026-10-14T00:06:50Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Tree of tarot: every node in a branch, a numeric year on each, one da… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/41883cdc56e3b82e200393f622601648225b3805"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/41883cdc56e3b82e200393f622601648225b3805</id>
-    <updated>2026-10-07T17:44:25Z</updated>
+    <title>Casting and Chance: a draft course on how an oracle is cast and what … (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/02f4e00c166b5d3678be96c2fefa1bb0046cb3f7"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/02f4e00c166b5d3678be96c2fefa1bb0046cb3f7</id>
+    <updated>2026-10-13T22:46:17Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Farley: edition in print, her open-access 2011 article, honest editor… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/281ad7aa02b2daf8aca2f8eb3ac6f0cca2420978"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/281ad7aa02b2daf8aca2f8eb3ac6f0cca2420978</id>
-    <updated>2026-10-07T17:40:31Z</updated>
+    <title>Levi: ordination told both ways (Farley vs web sources) (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/f5fa9abce2df07b641654d013b6c6602f6fdbb27"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/f5fa9abce2df07b641654d013b6c6602f6fdbb27</id>
+    <updated>2026-10-13T04:17:35Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>covers, clearer caster, Cast opens the assistant, number… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/061c1dd1d8925d14c0d9308b677232e6caa27610"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/061c1dd1d8925d14c0d9308b677232e6caa27610</id>
-    <updated>2026-10-07T15:21:09Z</updated>
+    <title>People: why they did it, from Farley (2009); game-to-oracle timeline (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/7dc68065e6ee5c7ff5c13c547b2a3e4a3733ae31"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/7dc68065e6ee5c7ff5c13c547b2a3e4a3733ae31</id>
+    <updated>2026-10-13T04:09:53Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Merge main (PR #4, the claims check) into ui/oct7; generated grammars… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/a294fa518be0824caf8c7a263e937397972c6e6a"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/a294fa518be0824caf8c7a263e937397972c6e6a</id>
-    <updated>2026-10-07T15:20:49Z</updated>
+    <title>History checked against Farley (2009): qualifications and page citations (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/6c97466530421f0bf58a2f409877dd5aecdbd143"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/6c97466530421f0bf58a2f409877dd5aecdbd143</id>
+    <updated>2026-10-13T00:23:04Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Tree of the Changes, the remaining claims checked (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/1f279031d95c988b00319beb34dcd75bf04b30b3"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/1f279031d95c988b00319beb34dcd75bf04b30b3</id>
-    <updated>2026-10-07T15:20:14Z</updated>
+    <title>Schools and From oracle to chart: importable, arriving Private (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/71b50b41ce675c79f33dd62b5ccff7fe585f95f4"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/71b50b41ce675c79f33dd62b5ccff7fe585f95f4</id>
+    <updated>2026-10-13T00:04:58Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Review fixes: no sideways scroll in Cards on a phone; the book-mode c… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/b73306ccbac60ece548ff7aff303f784626cb453"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/b73306ccbac60ece548ff7aff303f784626cb453</id>
-    <updated>2026-10-07T06:48:01Z</updated>
+    <title>Mark Schools and Oracle to chart Private on first import (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/1492da4038b8a572c249551c5f82a668ee455fee"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/1492da4038b8a572c249551c5f82a668ee455fee</id>
+    <updated>2026-10-13T00:01:54Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Hexagram previews checked against recursive.eco; corrections carried … (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/937c6bafe42859d459991af8010f8b27c3f792e0"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/937c6bafe42859d459991af8010f8b27c3f792e0</id>
-    <updated>2026-10-07T06:15:54Z</updated>
+    <title>Manifest: the repo is the source of truth (repo first, like recursive… (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/a5fb9915759e100d123ca64f175fb4ad7bdd3468"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/a5fb9915759e100d123ca64f175fb4ad7bdd3468</id>
+    <updated>2026-10-12T22:59:45Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Cast opens the assistant here; Edit opens recursive.eco&#x27;s editor at t… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/563785abf3d465aff9be2f0b8e27ff8f5f61398a"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/563785abf3d465aff9be2f0b8e27ff8f5f61398a</id>
-    <updated>2026-10-07T05:31:54Z</updated>
+    <title>Round 2: the wheel page, Schools and the course on the site, the 384 … (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/d50028c8e14c97f07a6d0dc15e7b1a9644fcfb77"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/d50028c8e14c97f07a6d0dc15e7b1a9644fcfb77</id>
+    <updated>2026-10-12T19:40:46Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>The caster&#x27;s four ways say what they do; lens views get plain names (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/3e76887e55f94af0b4ddf4cf97ad85db11ba83d6"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/3e76887e55f94af0b4ddf4cf97ad85db11ba83d6</id>
-    <updated>2026-10-07T04:29:32Z</updated>
+    <title>Research: Gene Keys structure, Human Design&#x27;s I Ching, the Voice; two… (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/76273fafdae2908d0cd0813c27d64b8e1f5f7aee"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/76273fafdae2908d0cd0813c27d64b8e1f5f7aee</id>
+    <updated>2026-10-12T18:17:22Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>No node for the grammar itself; no empty sections or &quot;9999&quot; labels (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/4191319277219b803ccfd5833a2edeee000f3101"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/4191319277219b803ccfd5833a2edeee000f3101</id>
-    <updated>2026-10-07T04:02:01Z</updated>
+    <title>Book T redo round 1: new pictures for the seven weak cards (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/bb8be4eb049e61efb1715fa9deeccd69d827f979"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/bb8be4eb049e61efb1715fa9deeccd69d827f979</id>
+    <updated>2026-10-10T22:17:56Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Every grammar card has a picture; short rows sit in the middle (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/d4d4097aca12c30577a8f8a99c471a33dfd7b8ef"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/d4d4097aca12c30577a8f8a99c471a33dfd7b8ef</id>
-    <updated>2026-10-07T03:21:25Z</updated>
+    <title>fix: allow https://recursive.eco to frame the chart viewer (astrology)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/86caac859dca81e2cd4c3816829d54a0af5f9a4f"/>
+    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/86caac859dca81e2cd4c3816829d54a0af5f9a4f</id>
+    <updated>2026-10-10T10:40:53Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>a zen look, seal-red spiral, public-domain zen art (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/bded25890716bba901a90fba726a1e39326e1d00"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/bded25890716bba901a90fba726a1e39326e1d00</id>
-    <updated>2026-10-06T23:51:38Z</updated>
+    <title>cards.html: read `nodes` only (drop the _unified_items alias) (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/59eaf8dfe971ea9596329c572eb883a2b23cce78"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/59eaf8dfe971ea9596329c572eb883a2b23cce78</id>
+    <updated>2026-10-10T03:56:46Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>ready to connect, King Wen numbers, the spiral (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/3efe8d6b99781d4470f67b444ee571ca9bfbca4e"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/3efe8d6b99781d4470f67b444ee571ca9bfbca4e</id>
-    <updated>2026-10-06T23:50:49Z</updated>
+    <title>GRAMMAR_FORMAT.md: grammar format v2 field names (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/26feaec16788f17b99c3abfeb5178200c41c5386"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/26feaec16788f17b99c3abfeb5178200c41c5386</id>
+    <updated>2026-10-10T03:56:10Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>A zen look: seal-red spiral, ink and paper, public-domain zen art (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/4cc35f742c3ec27847bcc4079a3e364112c23e91"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/4cc35f742c3ec27847bcc4079a3e364112c23e91</id>
-    <updated>2026-10-06T23:37:55Z</updated>
+    <title>Grammar format v2: nodes, parts, no stored level (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/1fb0dcb45b6e99bade94c8d366f06622a44c62c7"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/1fb0dcb45b6e99bade94c8d366f06622a44c62c7</id>
+    <updated>2026-10-10T03:54:24Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Ready to connect: ids.json filled, King Wen numbers at the top level,… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/aadc0e3f5d9b78389710005c0fdfbc385ec0a922"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/aadc0e3f5d9b78389710005c0fdfbc385ec0a922</id>
-    <updated>2026-10-06T21:33:37Z</updated>
+    <title>GRAMMAR_FORMAT.md: grammar format v2 field names (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/642f3da878e205d616f1c5d7202e9e468744b7b0"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/642f3da878e205d616f1c5d7202e9e468744b7b0</id>
+    <updated>2026-10-10T03:53:56Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>CHANGELOG: remove leftover merge-conflict markers from the #48 merge (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/f8910fc81f4ccf0b595d77b74503e81ce8aed33a"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/f8910fc81f4ccf0b595d77b74503e81ce8aed33a</id>
-    <updated>2026-10-06T20:07:00Z</updated>
+    <title>GRAMMAR_FORMAT.md: grammar format v2 field names (astrology)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/880954f7f09df877046cb81c059b853b24473cc2"/>
+    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/880954f7f09df877046cb81c059b853b24473cc2</id>
+    <updated>2026-10-10T03:53:28Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>the tarot reader (her word: merge) (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/e925afef79baf6b37acd659ceee374ad607eb8fe"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/e925afef79baf6b37acd659ceee374ad607eb8fe</id>
-    <updated>2026-10-06T20:06:22Z</updated>
+    <title>Grammar format v2: node all the way down (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/cd51df2d692c19424253df2b4a058df480ae8708"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/cd51df2d692c19424253df2b4a058df480ae8708</id>
+    <updated>2026-10-10T03:52:42Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Merge main into reader/draft (CHANGELOG: keep both entries) (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/24588e999aa5f08090834ddd242fa19aa563fefd"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/24588e999aa5f08090834ddd242fa19aa563fefd</id>
-    <updated>2026-10-06T20:06:04Z</updated>
+    <title>Grammar format v2: node all the way down (astrology)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/dfe6da77f888b7b2ffa07b115e0e99b9460378d2"/>
+    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/dfe6da77f888b7b2ffa07b115e0e99b9460378d2</id>
+    <updated>2026-10-10T03:34:47Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Book T Strength/Justice fix (her word: merge) (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b26ca7f05f7677fd59dfd33a043c65af0603c228"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/b26ca7f05f7677fd59dfd33a043c65af0603c228</id>
-    <updated>2026-10-06T20:05:21Z</updated>
+    <title>Sleep, gently: a short course, linked from the practice and back (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/24182bfccb17dd2cfdeb5995c6a4961fe1f5fea6"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/24182bfccb17dd2cfdeb5995c6a4961fe1f5fea6</id>
+    <updated>2026-10-08T20:54:12Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>reader: offer to save a reading to the Journal with record_reading (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/6e772acd5fc847059b4b6849b027fe4d1b14f5b3"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/6e772acd5fc847059b4b6849b027fe4d1b14f5b3</id>
-    <updated>2026-10-06T19:32:05Z</updated>
+    <title>Sleep, gently: a CBT-I informed grammar and daily practice (psychoedu… (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/26c309a843ff3e1fea14df28dac00af06ef6b530"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/26c309a843ff3e1fea14df28dac00af06ef6b530</id>
+    <updated>2026-10-08T16:59:43Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>reader: a tarot reader for claude.ai, a spread format, and a grid pag… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/5b2baba66bc8995899f7d9406c31fe510f81822f"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/5b2baba66bc8995899f7d9406c31fe510f81822f</id>
-    <updated>2026-10-06T15:58:53Z</updated>
+    <title>Reading with: Martin Fowler, John O&#x27;Nolan, recursive.eco and PlayfulP… (home)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/0a9aed89fd4f65703b434af98d9f4ac6bb3dc35d"/>
+    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/0a9aed89fd4f65703b434af98d9f4ac6bb3dc35d</id>
+    <updated>2026-10-08T03:55:19Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>fix(golden-dawn-book-t): Strength and Justice had each other&#x27;s Book T… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/164798236e6bf2773eb6357170e26f1f36c87ea9"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/164798236e6bf2773eb6357170e26f1f36c87ea9</id>
-    <updated>2026-10-06T15:33:06Z</updated>
+    <title>Our ways of working: a page, a public CLAUDE.md, a footer link (home)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/d99698a732868a77b6fdd385a679294264919edf"/>
+    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/d99698a732868a77b6fdd385a679294264919edf</id>
+    <updated>2026-10-07T22:42:49Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>CHANGELOG: what is new and not thoroughly verified, at merge (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/281152342f0086ca474c03cd5a7e7205abf20988"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/281152342f0086ca474c03cd5a7e7205abf20988</id>
-    <updated>2026-10-05T17:00:35Z</updated>
+    <title>the Brush logo, real thumbnails, the sibling-site header (home)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/892c77e1690a1a2fad4bc522ce0e2f0282a8987d"/>
+    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/892c77e1690a1a2fad4bc522ce0e2f0282a8987d</id>
+    <updated>2026-10-07T21:54:41Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Tree of the Changes: the ◇ claims checked, low-confidence books first (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/452eabcc763029afbc74f1481899d5ba525fb263"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/452eabcc763029afbc74f1481899d5ba525fb263</id>
-    <updated>2026-10-05T07:27:02Z</updated>
+    <title>Header: recursive.eco&#x27;s static spiral at the far left, as on the sibl… (home)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/97f9e2c9c97731abac21f0b542e39350d76456ba"/>
+    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/97f9e2c9c97731abac21f0b542e39350d76456ba</id>
+    <updated>2026-10-07T20:34:44Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>The Tree of the Changes: 33 books, timeline, genealogy, two history c… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/a04b9e0fdad7a85ee5d5f2c8002d191b6c125a6e"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/a04b9e0fdad7a85ee5d5f2c8002d191b6c125a6e</id>
-    <updated>2026-10-04T16:08:49Z</updated>
+    <title>Home: brush double spiral, real thumbnails, social card, Ghost-like n… (home)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/39043c98dd19665de8251864fe3ed933191609e8"/>
+    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/39043c98dd19665de8251864fe3ed933191609e8</id>
+    <updated>2026-10-07T17:54:52Z</updated>
     <category term="recursive.eco"/>
   </entry>
 </feed>

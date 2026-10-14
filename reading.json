@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-08T02:16:24Z",
+ "newest": "2026-10-14T02:17:31Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "reversed meanings only where a source gives them (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b56c925130ae5468934ff57f134db99664db2f13",
-     "date": "2026-10-08T02:16:24Z"
+     "title": "Merge main into the trump-order course; rebuild search index and meta… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/4be725f07ec0dd62eebba77996f5e2a88373035b",
+     "date": "2026-10-14T02:17:31Z"
     },
     {
-     "title": "sources and coherence — Farley, open-access citations, … (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/cc4de131380b39b730f64bf6bc3c9a5c2a67c531",
-     "date": "2026-10-07T21:54:34Z"
+     "title": "The Changing-Lines Lens: a draft course reading the I Ching one line … (iching)",
+     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/6a35ca451ff1300e9e88e6a9c0b8a5d302ac551b",
+     "date": "2026-10-14T02:11:44Z"
     },
     {
-     "title": "Coherence list for PlayfulProcess + CHANGELOG (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/d1e8d3a40ca3874e46aee452c544e51b74a4aed1",
-     "date": "2026-10-07T18:13:36Z"
+     "title": "Ontoject study: the Trickster between every card, Reversed: hubris, s… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/53126ac2de485eed1bbb2f197d19add2313b3c39",
+     "date": "2026-10-14T02:00:51Z"
     }
    ]
   },
@@ -60,19 +60,19 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "The Craft of Practitioner Voice",
+     "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
+     "date": "2026-10-13T14:06:00Z"
+    },
+    {
+     "title": "Are Harnesses Worth the Cost?",
+     "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+     "date": "2026-10-13T13:35:00Z"
+    },
+    {
      "title": "Fragments: October 4",
      "url": "https://martinfowler.com/fragments/2026-10-04.html",
      "date": "2026-10-05T04:28:00Z"
-    },
-    {
-     "title": "Principles for effective slides",
-     "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
-     "date": "2026-09-30T14:14:00Z"
-    },
-    {
-     "title": "Bliki: Sensible Default",
-     "url": "https://martinfowler.com/bliki/SensibleDefault.html",
-     "date": "2026-09-29T13:43:00Z"
     }
    ]
   },
