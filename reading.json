@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-14T02:17:31Z",
+ "newest": "2026-10-15T13:25:00Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Merge main into the trump-order course; rebuild search index and meta… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/4be725f07ec0dd62eebba77996f5e2a88373035b",
-     "date": "2026-10-14T02:17:31Z"
+     "title": "recursive.eco: update the repository list (iching)",
+     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/704980bd66d326e5bdf88ae229869a24afba34eb",
+     "date": "2026-10-14T21:41:30Z"
     },
     {
-     "title": "The Changing-Lines Lens: a draft course reading the I Ching one line … (iching)",
-     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/6a35ca451ff1300e9e88e6a9c0b8a5d302ac551b",
-     "date": "2026-10-14T02:11:44Z"
+     "title": "CHANGELOG: keep both sides of the merge (main's entries first) (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b23a79c3d14b1f42ae586610fd11c1cd48078e69",
+     "date": "2026-10-14T21:21:14Z"
     },
     {
-     "title": "Ontoject study: the Trickster between every card, Reversed: hubris, s… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/53126ac2de485eed1bbb2f197d19add2313b3c39",
-     "date": "2026-10-14T02:00:51Z"
+     "title": "Merge remote-tracking branch 'origin/main' into seo/card-pages-2026-1… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/eec843d12aaa4ded40eb1163edd97cf27213c1a4",
+     "date": "2026-10-14T21:20:34Z"
     }
    ]
   },
@@ -60,19 +60,19 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "When Software Meets Hardware",
+     "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+     "date": "2026-10-15T13:25:00Z"
+    },
+    {
+     "title": "Build your slide template",
+     "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
+     "date": "2026-10-14T14:20:00Z"
+    },
+    {
      "title": "The Craft of Practitioner Voice",
      "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
      "date": "2026-10-13T14:06:00Z"
-    },
-    {
-     "title": "Are Harnesses Worth the Cost?",
-     "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
-     "date": "2026-10-13T13:35:00Z"
-    },
-    {
-     "title": "Fragments: October 4",
-     "url": "https://martinfowler.com/fragments/2026-10-04.html",
-     "date": "2026-10-05T04:28:00Z"
     }
    ]
   },
