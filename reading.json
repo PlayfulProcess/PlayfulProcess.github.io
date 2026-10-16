@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-15T13:25:00Z",
+ "newest": "2026-10-16T00:19:06Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "recursive.eco: update the repository list (iching)",
-     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/704980bd66d326e5bdf88ae229869a24afba34eb",
-     "date": "2026-10-14T21:41:30Z"
+     "title": "docs: the d'Este Tarocchi's dark pictures, measured, and a brightenin… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b718a087878d0f22b204e20c634d83c86b012721",
+     "date": "2026-10-16T00:19:06Z"
     },
     {
-     "title": "CHANGELOG: keep both sides of the merge (main's entries first) (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b23a79c3d14b1f42ae586610fd11c1cd48078e69",
-     "date": "2026-10-14T21:21:14Z"
+     "title": "Book T: its own Ace of Wands as the deck's cover (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/eb302aeceed1ea6d85011f51671a999221dd5915",
+     "date": "2026-10-15T22:43:18Z"
     },
     {
-     "title": "Merge remote-tracking branch 'origin/main' into seo/card-pages-2026-1… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/eec843d12aaa4ded40eb1163edd97cf27213c1a4",
-     "date": "2026-10-14T21:20:34Z"
+     "title": "Caster Studio: save a spread as a casting on recursive.eco, read My s… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/4894c016472fa79fd7921d6a83263ce63bdbd9bc",
+     "date": "2026-10-15T18:55:02Z"
     }
    ]
   },

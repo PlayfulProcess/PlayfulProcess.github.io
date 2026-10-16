@@ -5,8 +5,29 @@
   <link rel="alternate" type="text/html" href="https://playfulprocess.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://playfulprocess.github.io/feed.xml"/>
   <id>https://playfulprocess.github.io/</id>
-  <updated>2026-10-14T21:41:30Z</updated>
+  <updated>2026-10-16T00:19:06Z</updated>
   <author><name>PlayfulProcess</name></author>
+  <entry>
+    <title>docs: the d&#x27;Este Tarocchi&#x27;s dark pictures, measured, and a brightenin… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b718a087878d0f22b204e20c634d83c86b012721"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/b718a087878d0f22b204e20c634d83c86b012721</id>
+    <updated>2026-10-16T00:19:06Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Book T: its own Ace of Wands as the deck&#x27;s cover (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/eb302aeceed1ea6d85011f51671a999221dd5915"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/eb302aeceed1ea6d85011f51671a999221dd5915</id>
+    <updated>2026-10-15T22:43:18Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Caster Studio: save a spread as a casting on recursive.eco, read My s… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/4894c016472fa79fd7921d6a83263ce63bdbd9bc"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/4894c016472fa79fd7921d6a83263ce63bdbd9bc</id>
+    <updated>2026-10-15T18:55:02Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
   <entry>
     <title>recursive.eco: update the repository list (iching)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/704980bd66d326e5bdf88ae229869a24afba34eb"/>
@@ -99,24 +120,10 @@
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Merge main into the trump-order course; rebuild search index and meta… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/4be725f07ec0dd62eebba77996f5e2a88373035b"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/4be725f07ec0dd62eebba77996f5e2a88373035b</id>
-    <updated>2026-10-14T02:17:31Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
     <title>The Changing-Lines Lens: a draft course reading the I Ching one line … (iching)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/6a35ca451ff1300e9e88e6a9c0b8a5d302ac551b"/>
     <id>https://github.com/PlayfulProcess/recursive-iching/commit/6a35ca451ff1300e9e88e6a9c0b8a5d302ac551b</id>
     <updated>2026-10-14T02:11:44Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Ontoject study: the Trickster between every card, Reversed: hubris, s… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/53126ac2de485eed1bbb2f197d19add2313b3c39"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/53126ac2de485eed1bbb2f197d19add2313b3c39</id>
-    <updated>2026-10-14T02:00:51Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
@@ -208,13 +215,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/26c309a843ff3e1fea14df28dac00af06ef6b530"/>
     <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/26c309a843ff3e1fea14df28dac00af06ef6b530</id>
     <updated>2026-10-08T16:59:43Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Reading with: Martin Fowler, John O&#x27;Nolan, recursive.eco and PlayfulP… (home)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/0a9aed89fd4f65703b434af98d9f4ac6bb3dc35d"/>
-    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/0a9aed89fd4f65703b434af98d9f4ac6bb3dc35d</id>
-    <updated>2026-10-08T03:55:19Z</updated>
     <category term="recursive.eco"/>
   </entry>
 </feed>
