@@ -5,8 +5,29 @@
   <link rel="alternate" type="text/html" href="https://playfulprocess.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://playfulprocess.github.io/feed.xml"/>
   <id>https://playfulprocess.github.io/</id>
-  <updated>2026-10-16T00:19:06Z</updated>
+  <updated>2026-10-18T20:08:31Z</updated>
   <author><name>PlayfulProcess</name></author>
+  <entry>
+    <title>fix(book-t): the Waite and Case sections draw after Book T&#x27;s own words (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/23712c53013829fcc8f8de0094b5889c66414268"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/23712c53013829fcc8f8de0094b5889c66414268</id>
+    <updated>2026-10-18T20:08:31Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>feat(book-t): Waite (1911) on every card, Case (1920) on each Key (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/a1b4d13700e2d68c9cfe8a55b9b3af28bdefb02c"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/a1b4d13700e2d68c9cfe8a55b9b3af28bdefb02c</id>
+    <updated>2026-10-18T19:09:29Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>feat(book-t): Book T&#x27;s own pictures beside the 1912 text, with a pict… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/6a580e9b525df174ee23c219bc2310141ac3ce9e"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/6a580e9b525df174ee23c219bc2310141ac3ce9e</id>
+    <updated>2026-10-18T18:16:20Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
   <entry>
     <title>docs: the d&#x27;Este Tarocchi&#x27;s dark pictures, measured, and a brightenin… (tarot)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b718a087878d0f22b204e20c634d83c86b012721"/>
@@ -64,27 +85,6 @@
     <category term="recursive.eco"/>
   </entry>
   <entry>
-    <title>Cards: fix the Decks picker, lean header buttons, Draw &amp; reflect in t… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b4fd9b0d946742bf6f11b92a0f83963f12ebd6a0"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/b4fd9b0d946742bf6f11b92a0f83963f12ebd6a0</id>
-    <updated>2026-10-14T19:31:35Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Search: one static page per Rider-Waite-Smith card, the list, sitemap… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/7ee87f50bec847dd0e872fdf609a49b3b4ce4b74"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/7ee87f50bec847dd0e872fdf609a49b3b4ce4b74</id>
-    <updated>2026-10-14T19:04:20Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Ontoject one-life: trim X Destiny, animations default to 0.5x (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b0030ec55139babf59df5c1bff197c05501c973f"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/b0030ec55139babf59df5c1bff197c05501c973f</id>
-    <updated>2026-10-14T19:02:27Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
     <title>Search: one static page per hexagram, the chart, sitemap, robots, sha… (iching)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/72962f5b4d28146640c4230a4df8f9816358f328"/>
     <id>https://github.com/PlayfulProcess/recursive-iching/commit/72962f5b4d28146640c4230a4df8f9816358f328</id>
@@ -110,13 +110,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/307997b39cd8e3306ba34252053a7df725283dd4"/>
     <id>https://github.com/PlayfulProcess/recursive-iching/commit/307997b39cd8e3306ba34252053a7df725283dd4</id>
     <updated>2026-10-14T15:28:11Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Ontoject study: XII as the fetus on the cord, one speed control, unve… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/6c4ea21349412248e00610fb592dc5d896aee185"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/6c4ea21349412248e00610fb592dc5d896aee185</id>
-    <updated>2026-10-14T03:25:19Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
@@ -215,6 +208,13 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/26c309a843ff3e1fea14df28dac00af06ef6b530"/>
     <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/26c309a843ff3e1fea14df28dac00af06ef6b530</id>
     <updated>2026-10-08T16:59:43Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Reading with: Martin Fowler, John O&#x27;Nolan, recursive.eco and PlayfulP… (home)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/0a9aed89fd4f65703b434af98d9f4ac6bb3dc35d"/>
+    <id>https://github.com/PlayfulProcess/PlayfulProcess.github.io/commit/0a9aed89fd4f65703b434af98d9f4ac6bb3dc35d</id>
+    <updated>2026-10-08T03:55:19Z</updated>
     <category term="recursive.eco"/>
   </entry>
 </feed>

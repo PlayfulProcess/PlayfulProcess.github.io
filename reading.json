@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-16T00:19:06Z",
+ "newest": "2026-10-18T20:08:31Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "docs: the d'Este Tarocchi's dark pictures, measured, and a brightenin… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b718a087878d0f22b204e20c634d83c86b012721",
-     "date": "2026-10-16T00:19:06Z"
+     "title": "fix(book-t): the Waite and Case sections draw after Book T's own words (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/23712c53013829fcc8f8de0094b5889c66414268",
+     "date": "2026-10-18T20:08:31Z"
     },
     {
-     "title": "Book T: its own Ace of Wands as the deck's cover (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/eb302aeceed1ea6d85011f51671a999221dd5915",
-     "date": "2026-10-15T22:43:18Z"
+     "title": "feat(book-t): Waite (1911) on every card, Case (1920) on each Key (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/a1b4d13700e2d68c9cfe8a55b9b3af28bdefb02c",
+     "date": "2026-10-18T19:09:29Z"
     },
     {
-     "title": "Caster Studio: save a spread as a casting on recursive.eco, read My s… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/4894c016472fa79fd7921d6a83263ce63bdbd9bc",
-     "date": "2026-10-15T18:55:02Z"
+     "title": "feat(book-t): Book T's own pictures beside the 1912 text, with a pict… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/6a580e9b525df174ee23c219bc2310141ac3ce9e",
+     "date": "2026-10-18T18:16:20Z"
     }
    ]
   },
