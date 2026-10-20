@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-18T20:08:31Z",
+ "newest": "2026-10-20T05:21:34Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "fix(book-t): the Waite and Case sections draw after Book T's own words (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/23712c53013829fcc8f8de0094b5889c66414268",
-     "date": "2026-10-18T20:08:31Z"
+     "title": "Visconti-Sforza: no facsimile pictures left on the site (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b7d59c8e466e4748260679186c0f771edf1688f8",
+     "date": "2026-10-20T05:21:34Z"
     },
     {
-     "title": "feat(book-t): Waite (1911) on every card, Case (1920) on each Key (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/a1b4d13700e2d68c9cfe8a55b9b3af28bdefb02c",
-     "date": "2026-10-18T19:09:29Z"
+     "title": "Charles VI: the 1844 lithographs; Visconti-Sforza: no facsimile scans… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/bb69918a87f677c7e8a4e62510425fbbaee39539",
+     "date": "2026-10-20T05:11:46Z"
     },
     {
-     "title": "feat(book-t): Book T's own pictures beside the 1912 text, with a pict… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/6a580e9b525df174ee23c219bc2310141ac3ce9e",
-     "date": "2026-10-18T18:16:20Z"
+     "title": "Book T: a sixth picture set, the painting framed by its symbols (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f60846905d7739fd194d2f6ace20159e220e3d6e",
+     "date": "2026-10-20T04:51:58Z"
     }
    ]
   },
