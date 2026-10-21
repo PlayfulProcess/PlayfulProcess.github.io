@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-20T05:21:34Z",
+ "newest": "2026-10-21T10:51:00Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Visconti-Sforza: no facsimile pictures left on the site (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/b7d59c8e466e4748260679186c0f771edf1688f8",
-     "date": "2026-10-20T05:21:34Z"
+     "title": "Book T: the ill-dignified sentence links the glossary's Dignities, no… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/8a9466026785d3f0405398f8d07e5828d69fb5df",
+     "date": "2026-10-21T10:20:49Z"
     },
     {
-     "title": "Charles VI: the 1844 lithographs; Visconti-Sforza: no facsimile scans… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/bb69918a87f677c7e8a4e62510425fbbaee39539",
-     "date": "2026-10-20T05:11:46Z"
+     "title": "Book T: the painted Fool as cover; the pictures paragraph names the p… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/75a55c5b11220c3032d025a96c71e95186b03789",
+     "date": "2026-10-20T22:56:22Z"
     },
     {
-     "title": "Book T: a sixth picture set, the painting framed by its symbols (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f60846905d7739fd194d2f6ace20159e220e3d6e",
-     "date": "2026-10-20T04:51:58Z"
+     "title": "Merge origin/main into claude/archive-folder (search-index.json rebuilt) (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/2daea05993f79d00066ab8ccd9035a4954bbc876",
+     "date": "2026-10-20T18:05:02Z"
     }
    ]
   },
@@ -60,6 +60,11 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "Fragments: October 21",
+     "url": "https://martinfowler.com/fragments/2026-10-21.html",
+     "date": "2026-10-21T10:51:00Z"
+    },
+    {
      "title": "When Software Meets Hardware",
      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
      "date": "2026-10-15T13:25:00Z"
@@ -68,11 +73,6 @@
      "title": "Build your slide template",
      "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
      "date": "2026-10-14T14:20:00Z"
-    },
-    {
-     "title": "The Craft of Practitioner Voice",
-     "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
-     "date": "2026-10-13T14:06:00Z"
     }
    ]
   },

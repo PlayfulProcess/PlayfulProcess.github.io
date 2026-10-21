@@ -5,8 +5,92 @@
   <link rel="alternate" type="text/html" href="https://playfulprocess.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://playfulprocess.github.io/feed.xml"/>
   <id>https://playfulprocess.github.io/</id>
-  <updated>2026-10-20T05:21:34Z</updated>
+  <updated>2026-10-21T10:20:49Z</updated>
   <author><name>PlayfulProcess</name></author>
+  <entry>
+    <title>Book T: the ill-dignified sentence links the glossary&#x27;s Dignities, no… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/8a9466026785d3f0405398f8d07e5828d69fb5df"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/8a9466026785d3f0405398f8d07e5828d69fb5df</id>
+    <updated>2026-10-21T10:20:49Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Book T: the painted Fool as cover; the pictures paragraph names the p… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/75a55c5b11220c3032d025a96c71e95186b03789"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/75a55c5b11220c3032d025a96c71e95186b03789</id>
+    <updated>2026-10-20T22:56:22Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Merge origin/main into claude/archive-folder (search-index.json rebuilt) (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/2daea05993f79d00066ab8ccd9035a4954bbc876"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/2daea05993f79d00066ab8ccd9035a4954bbc876</id>
+    <updated>2026-10-20T18:05:02Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive page: at /archive/ the header keeps its ../ prefix (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/98015e8ab07dedb4c44f2d68d0986eae72b3284a"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/98015e8ab07dedb4c44f2d68d0986eae72b3284a</id>
+    <updated>2026-10-20T17:57:57Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive page: at /archive/ the header keeps its ../ prefix (astrology)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/fbfc8b5efb0f318b4679ee5ea5f0c8454434cc5f"/>
+    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/fbfc8b5efb0f318b4679ee5ea5f0c8454434cc5f</id>
+    <updated>2026-10-20T17:57:45Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive page: at /archive/ the header keeps its ../ prefix (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/431bd938e5a9e34243f69a25d5c36860564d9bde"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/431bd938e5a9e34243f69a25d5c36860564d9bde</id>
+    <updated>2026-10-20T17:57:35Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive page: at /archive/ the header keeps its ../ prefix (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/50f87ce821e44935452a9727fcceed795d8650cd"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/50f87ce821e44935452a9727fcceed795d8650cd</id>
+    <updated>2026-10-20T17:57:24Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive page and nav link; no viewer moves until the schools open in … (repatterning)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/f3bdaad7ce8085b6482df24a5596e098fd213630"/>
+    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/f3bdaad7ce8085b6482df24a5596e098fd213630</id>
+    <updated>2026-10-20T17:43:41Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive: Cards, Tree and the older all-voices page move to archive/, … (astrology)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/219e3352102a61ee5ad9c55c78840344db07d212"/>
+    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/219e3352102a61ee5ad9c55c78840344db07d212</id>
+    <updated>2026-10-20T17:40:15Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive: Cards, Tree, Course and the one-deck page move to archive/, … (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/74250a602d3c6304fd5123f09fc38f57b58df587"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/74250a602d3c6304fd5123f09fc38f57b58df587</id>
+    <updated>2026-10-20T17:32:21Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Archive: move Cards and Tree into archive/, stubs keep the old addresses (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/69bf9a136f05dd263b78fd484d658d336e636f54"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/69bf9a136f05dd263b78fd484d658d336e636f54</id>
+    <updated>2026-10-20T17:29:35Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Book T: the painting framed by its symbols is the official picture (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/be187ad2f6f16a2067eada261a78c6f27f81cc44"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/be187ad2f6f16a2067eada261a78c6f27f81cc44</id>
+    <updated>2026-10-20T16:58:01Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
   <entry>
     <title>Visconti-Sforza: no facsimile pictures left on the site (tarot)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/b7d59c8e466e4748260679186c0f771edf1688f8"/>
@@ -19,41 +103,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/bb69918a87f677c7e8a4e62510425fbbaee39539"/>
     <id>https://github.com/PlayfulProcess/recursive-tarot/commit/bb69918a87f677c7e8a4e62510425fbbaee39539</id>
     <updated>2026-10-20T05:11:46Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Book T: a sixth picture set, the painting framed by its symbols (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/f60846905d7739fd194d2f6ace20159e220e3d6e"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/f60846905d7739fd194d2f6ace20159e220e3d6e</id>
-    <updated>2026-10-20T04:51:58Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Book T: elements on all 78 cards, its ill-dignified words in their ow… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/8ba0c15dd278fb20387a47975803ad48094d110d"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/8ba0c15dd278fb20387a47975803ad48094d110d</id>
-    <updated>2026-10-20T04:00:31Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Book T linocut, second pass: two inks on the Keys, bigger posed figur… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/c700b5ee38d13e15d12f9dc89c31a7e3ee51580f"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/c700b5ee38d13e15d12f9dc89c31a7e3ee51580f</id>
-    <updated>2026-10-20T03:52:22Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Book T page: the title spans the page again (one-column hero) (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/46ff407f4eb76638ea846030d0d760fbaef73769"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/46ff407f4eb76638ea846030d0d760fbaef73769</id>
-    <updated>2026-10-20T03:32:47Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>tgc: print boards, rules, boxes and stock parts from metadata.print, … (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/1023ce58fb5229928bcc4d4305a066117b6ab8c1"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/1023ce58fb5229928bcc4d4305a066117b6ab8c1</id>
-    <updated>2026-10-19T20:30:24Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
@@ -166,55 +215,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/9a6621c395f05e98482d109c061cbb9e55b033ff"/>
     <id>https://github.com/PlayfulProcess/recursive-iching/commit/9a6621c395f05e98482d109c061cbb9e55b033ff</id>
     <updated>2026-10-14T16:07:07Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>recursive.eco: map changing-lines-lens → 1cfd859a-797c-4a8c-ba1a-3f0f… (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/115b2372a7cde24c05db4de65a0a9cf3fbf5e7bd"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/115b2372a7cde24c05db4de65a0a9cf3fbf5e7bd</id>
-    <updated>2026-10-14T15:29:24Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Courses read continuous by default; the Changing-Lines Lens opens in … (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/307997b39cd8e3306ba34252053a7df725283dd4"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/307997b39cd8e3306ba34252053a7df725283dd4</id>
-    <updated>2026-10-14T15:28:11Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>fix: allow https://recursive.eco to frame the chart viewer (astrology)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/86caac859dca81e2cd4c3816829d54a0af5f9a4f"/>
-    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/86caac859dca81e2cd4c3816829d54a0af5f9a4f</id>
-    <updated>2026-10-10T10:40:53Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>cards.html: read `nodes` only (drop the _unified_items alias) (repatterning)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/59eaf8dfe971ea9596329c572eb883a2b23cce78"/>
-    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/59eaf8dfe971ea9596329c572eb883a2b23cce78</id>
-    <updated>2026-10-10T03:56:46Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>GRAMMAR_FORMAT.md: grammar format v2 field names (repatterning)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/26feaec16788f17b99c3abfeb5178200c41c5386"/>
-    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/26feaec16788f17b99c3abfeb5178200c41c5386</id>
-    <updated>2026-10-10T03:56:10Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Grammar format v2: nodes, parts, no stored level (repatterning)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/1fb0dcb45b6e99bade94c8d366f06622a44c62c7"/>
-    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/1fb0dcb45b6e99bade94c8d366f06622a44c62c7</id>
-    <updated>2026-10-10T03:54:24Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>GRAMMAR_FORMAT.md: grammar format v2 field names (astrology)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/880954f7f09df877046cb81c059b853b24473cc2"/>
-    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/880954f7f09df877046cb81c059b853b24473cc2</id>
-    <updated>2026-10-10T03:53:28Z</updated>
     <category term="recursive.eco"/>
   </entry>
 </feed>
