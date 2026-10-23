@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-21T10:51:00Z",
+ "newest": "2026-10-23T11:55:23Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Book T: the ill-dignified sentence links the glossary's Dignities, no… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/8a9466026785d3f0405398f8d07e5828d69fb5df",
-     "date": "2026-10-21T10:20:49Z"
+     "title": "recursive.eco: map jhanas-draft → 8a9adcf9-6628-45e4-af0d-2b8cefaf166… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e82df093dc7352355c14977b0f707bd3e7a773e2",
+     "date": "2026-10-23T11:55:23Z"
     },
     {
-     "title": "Book T: the painted Fool as cover; the pictures paragraph names the p… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/75a55c5b11220c3032d025a96c71e95186b03789",
-     "date": "2026-10-20T22:56:22Z"
+     "title": "recursive.eco: map hindu-pantheon-draft → 13aac153-0b64-45fe-83f5-f02… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/25a7f5555e3281deb3c2d11a6e33bf789240ec04",
+     "date": "2026-10-23T11:55:09Z"
     },
     {
-     "title": "Merge origin/main into claude/archive-folder (search-index.json rebuilt) (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/2daea05993f79d00066ab8ccd9035a4954bbc876",
-     "date": "2026-10-20T18:05:02Z"
+     "title": "recursive.eco: map greek-pantheon-draft → d7db9097-9de2-4955-a8e7-cb6… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/cf71a971d509a3a02434db81509ea067de00dac6",
+     "date": "2026-10-23T11:54:58Z"
     }
    ]
   },
