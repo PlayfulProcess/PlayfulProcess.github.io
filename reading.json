@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-23T11:55:23Z",
+ "newest": "2026-10-24T05:00:37Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "recursive.eco: map jhanas-draft → 8a9adcf9-6628-45e4-af0d-2b8cefaf166… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e82df093dc7352355c14977b0f707bd3e7a773e2",
-     "date": "2026-10-23T11:55:23Z"
+     "title": "Ways to Contribute: the MCP tool names as they are today (add_nodes, … (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/6de9783db65b6647494369303cfa126c1e1610b2",
+     "date": "2026-10-24T05:00:37Z"
     },
     {
-     "title": "recursive.eco: map hindu-pantheon-draft → 13aac153-0b64-45fe-83f5-f02… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/25a7f5555e3281deb3c2d11a6e33bf789240ec04",
-     "date": "2026-10-23T11:55:09Z"
+     "title": "Etteilla: the booklet's key information goes into the decks; the book… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/7e4793f5c6c9efbff72dcef3d169f3c2484e7cdc",
+     "date": "2026-10-24T04:59:23Z"
     },
     {
-     "title": "recursive.eco: map greek-pantheon-draft → d7db9097-9de2-4955-a8e7-cb6… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/cf71a971d509a3a02434db81509ea067de00dac6",
-     "date": "2026-10-23T11:54:58Z"
+     "title": "Delete the Games of the Tarot booklet: the course already holds all o… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fd46d02c4989caffabfa0482d1031a30f475e1a9",
+     "date": "2026-10-24T04:57:48Z"
     }
    ]
   },
