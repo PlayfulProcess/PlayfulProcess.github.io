@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-24T05:00:37Z",
+ "newest": "2026-10-28T12:55:00Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Ways to Contribute: the MCP tool names as they are today (add_nodes, … (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/6de9783db65b6647494369303cfa126c1e1610b2",
-     "date": "2026-10-24T05:00:37Z"
+     "title": "Book T: fixes from a word-for-word check against the 1912 text (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/1dbc3e6dc0acb0a086a8a9074cb27ca193ce6928",
+     "date": "2026-10-28T03:57:29Z"
     },
     {
-     "title": "Etteilla: the booklet's key information goes into the decks; the book… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/7e4793f5c6c9efbff72dcef3d169f3c2484e7cdc",
-     "date": "2026-10-24T04:59:23Z"
+     "title": "Merge main (PRs #132, #133) into the short Book T source line; genera… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/46e4df54173ab62a16065635bc463c789430d90f",
+     "date": "2026-10-28T03:42:10Z"
     },
     {
-     "title": "Delete the Games of the Tarot booklet: the course already holds all o… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fd46d02c4989caffabfa0482d1031a30f475e1a9",
-     "date": "2026-10-24T04:57:48Z"
+     "title": "Merge main (meta grammar rebuilt) (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e199e8beadeb0c94cb95e4b5e2b17aa47107a903",
+     "date": "2026-10-28T03:23:31Z"
     }
    ]
   },
@@ -60,19 +60,19 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "Fragments: October 28",
+     "url": "https://martinfowler.com/fragments/2026-10-28.html",
+     "date": "2026-10-28T12:55:00Z"
+    },
+    {
      "title": "Fragments: October 21",
      "url": "https://martinfowler.com/fragments/2026-10-21.html",
-     "date": "2026-10-21T10:51:00Z"
+     "date": "2026-10-21T16:51:00Z"
     },
     {
      "title": "When Software Meets Hardware",
      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
      "date": "2026-10-15T13:25:00Z"
-    },
-    {
-     "title": "Build your slide template",
-     "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
-     "date": "2026-10-14T14:20:00Z"
     }
    ]
   },
