@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-28T12:55:00Z",
+ "newest": "2026-10-28T21:34:48Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Book T: fixes from a word-for-word check against the 1912 text (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/1dbc3e6dc0acb0a086a8a9074cb27ca193ce6928",
-     "date": "2026-10-28T03:57:29Z"
+     "title": "Book T: each card shows its Rider-Waite-Smith card, linked and pictured (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/29cd644c4cfd141e9d43c9e4db66bbe36c05d170",
+     "date": "2026-10-28T21:34:48Z"
     },
     {
-     "title": "Merge main (PRs #132, #133) into the short Book T source line; genera… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/46e4df54173ab62a16065635bc463c789430d90f",
-     "date": "2026-10-28T03:42:10Z"
+     "title": "Book T cards show Book T's words only; notes move to the deck descrip… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/5b7ae83affb3b2118f86d9c348f9520bf799724a",
+     "date": "2026-10-28T20:01:22Z"
     },
     {
-     "title": "Merge main (meta grammar rebuilt) (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e199e8beadeb0c94cb95e4b5e2b17aa47107a903",
-     "date": "2026-10-28T03:23:31Z"
+     "title": "print: Book T deck for The Game Crafter (80 faces + back), uploaded a… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fcbbdfebadaba4079205ed5dceb54aa53b72163f",
+     "date": "2026-10-28T15:30:13Z"
     }
    ]
   },
