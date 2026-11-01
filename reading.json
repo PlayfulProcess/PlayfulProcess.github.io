@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-29T14:28:00Z",
+ "newest": "2026-10-31T17:31:13Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,6 +35,11 @@
    "feed": "feed.xml",
    "items": [
     {
+     "title": "Footer sign-up goes through the app's route (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fa6ab6609c749e3f8b26aeddf2d2a8fc0726c44f",
+     "date": "2026-10-31T17:31:13Z"
+    },
+    {
      "title": "Book T: each card shows its Rider-Waite-Smith card, linked and pictured (tarot)",
      "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/29cd644c4cfd141e9d43c9e4db66bbe36c05d170",
      "date": "2026-10-28T21:34:48Z"
@@ -43,11 +48,6 @@
      "title": "Book T cards show Book T's words only; notes move to the deck descrip… (tarot)",
      "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/5b7ae83affb3b2118f86d9c348f9520bf799724a",
      "date": "2026-10-28T20:01:22Z"
-    },
-    {
-     "title": "print: Book T deck for The Game Crafter (80 faces + back), uploaded a… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fcbbdfebadaba4079205ed5dceb54aa53b72163f",
-     "date": "2026-10-28T15:30:13Z"
     }
    ]
   },
