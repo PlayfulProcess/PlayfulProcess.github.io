@@ -5,8 +5,36 @@
   <link rel="alternate" type="text/html" href="https://playfulprocess.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://playfulprocess.github.io/feed.xml"/>
   <id>https://playfulprocess.github.io/</id>
-  <updated>2026-10-31T17:31:13Z</updated>
+  <updated>2026-11-01T18:13:17Z</updated>
   <author><name>PlayfulProcess</name></author>
+  <entry>
+    <title>Links follow the app: /cast/, Create, Play, the MCP on recursive.eco (astrology)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/ed1846c4abe583f60363347e4e26cdb3a31e4bba"/>
+    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/ed1846c4abe583f60363347e4e26cdb3a31e4bba</id>
+    <updated>2026-11-01T18:13:17Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Keep the Casting and Chance link on the I Ching site: the course is P… (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/5cc46ecbd4ff51673a0d7e2b4ec44c64c7fb2974"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/5cc46ecbd4ff51673a0d7e2b4ec44c64c7fb2974</id>
+    <updated>2026-11-01T18:13:02Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Course links follow the app: /cast/, Play, recursive.eco (iching)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/00bd43b04bb089de213e5b193989b235407628b9"/>
+    <id>https://github.com/PlayfulProcess/recursive-iching/commit/00bd43b04bb089de213e5b193989b235407628b9</id>
+    <updated>2026-11-01T18:12:16Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Course words follow the app: Explore, free questions, /cast/, nodes (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/95367e7db9f248b097f442b1f4b54e96653d3d36"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/95367e7db9f248b097f442b1f4b54e96653d3d36</id>
+    <updated>2026-11-01T18:11:12Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
   <entry>
     <title>Footer sign-up goes through the app&#x27;s route (tarot)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/fa6ab6609c749e3f8b26aeddf2d2a8fc0726c44f"/>
@@ -54,13 +82,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/1dbc3e6dc0acb0a086a8a9074cb27ca193ce6928"/>
     <id>https://github.com/PlayfulProcess/recursive-tarot/commit/1dbc3e6dc0acb0a086a8a9074cb27ca193ce6928</id>
     <updated>2026-10-28T03:57:29Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Merge main (PRs #132, #133) into the short Book T source line; genera… (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/46e4df54173ab62a16065635bc463c789430d90f"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/46e4df54173ab62a16065635bc463c789430d90f</id>
-    <updated>2026-10-28T03:42:10Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
@@ -194,27 +215,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/1627efa1e49ba0adaa7529c1ef5c15c8b189da96"/>
     <id>https://github.com/PlayfulProcess/recursive-astrology/commit/1627efa1e49ba0adaa7529c1ef5c15c8b189da96</id>
     <updated>2026-10-19T16:58:34Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>eco-links: View, Cast and Edit open Play and Cast (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/d6084cbd3bf4e96e5246b646503e390745811f53"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/d6084cbd3bf4e96e5246b646503e390745811f53</id>
-    <updated>2026-10-19T16:57:57Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>recursive.eco: update the repository list (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/704980bd66d326e5bdf88ae229869a24afba34eb"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/704980bd66d326e5bdf88ae229869a24afba34eb</id>
-    <updated>2026-10-14T21:41:30Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Fix swapped trigram_above/trigram_below in i-ching-chinese-original; … (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/89eef3de774919cd8c2867ab3a5b63442323b5ef"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/89eef3de774919cd8c2867ab3a5b63442323b5ef</id>
-    <updated>2026-10-14T19:46:42Z</updated>
     <category term="recursive.eco"/>
   </entry>
 </feed>

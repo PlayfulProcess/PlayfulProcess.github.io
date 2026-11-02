@@ -1,5 +1,5 @@
 {
- "newest": "2026-10-31T17:31:13Z",
+ "newest": "2026-11-01T18:13:17Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Footer sign-up goes through the app's route (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fa6ab6609c749e3f8b26aeddf2d2a8fc0726c44f",
-     "date": "2026-10-31T17:31:13Z"
+     "title": "Links follow the app: /cast/, Create, Play, the MCP on recursive.eco (astrology)",
+     "url": "https://github.com/PlayfulProcess/recursive-astrology/commit/ed1846c4abe583f60363347e4e26cdb3a31e4bba",
+     "date": "2026-11-01T18:13:17Z"
     },
     {
-     "title": "Book T: each card shows its Rider-Waite-Smith card, linked and pictured (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/29cd644c4cfd141e9d43c9e4db66bbe36c05d170",
-     "date": "2026-10-28T21:34:48Z"
+     "title": "Keep the Casting and Chance link on the I Ching site: the course is P… (iching)",
+     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/5cc46ecbd4ff51673a0d7e2b4ec44c64c7fb2974",
+     "date": "2026-11-01T18:13:02Z"
     },
     {
-     "title": "Book T cards show Book T's words only; notes move to the deck descrip… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/5b7ae83affb3b2118f86d9c348f9520bf799724a",
-     "date": "2026-10-28T20:01:22Z"
+     "title": "Course links follow the app: /cast/, Play, recursive.eco (iching)",
+     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/00bd43b04bb089de213e5b193989b235407628b9",
+     "date": "2026-11-01T18:12:16Z"
     }
    ]
   },
