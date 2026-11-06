@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-01T18:13:17Z",
+ "newest": "2026-11-05T14:11:00Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -60,6 +60,11 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "The Data Product Platform Navigator",
+     "url": "https://martinfowler.com/articles/data-product-platform-nav.html",
+     "date": "2026-11-05T14:11:00Z"
+    },
+    {
      "title": "Bliki: LLM Voice",
      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
      "date": "2026-10-29T14:28:00Z"
@@ -68,11 +73,6 @@
      "title": "Why are good developers so wary of agentic development?",
      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
      "date": "2026-10-29T13:50:00Z"
-    },
-    {
-     "title": "Fragments: October 28",
-     "url": "https://martinfowler.com/fragments/2026-10-28.html",
-     "date": "2026-10-28T12:55:00Z"
     }
    ]
   },
