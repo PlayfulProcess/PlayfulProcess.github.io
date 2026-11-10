@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-05T14:11:00Z",
+ "newest": "2026-11-09T23:31:46Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
+     "title": "Merge the simple reading page (three Book T cards, then talk) (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/22394caf2d594e2e6b05469a464513db90ed4327",
+     "date": "2026-11-09T23:31:46Z"
+    },
+    {
+     "title": "Add a simple reading page: three Book T cards, then talk (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e0b9359cbcf680d8c01610efb8562f448bd98f88",
+     "date": "2026-11-09T23:19:53Z"
+    },
+    {
      "title": "Links follow the app: /cast/, Create, Play, the MCP on recursive.eco (astrology)",
      "url": "https://github.com/PlayfulProcess/recursive-astrology/commit/ed1846c4abe583f60363347e4e26cdb3a31e4bba",
      "date": "2026-11-01T18:13:17Z"
-    },
-    {
-     "title": "Keep the Casting and Chance link on the I Ching site: the course is P… (iching)",
-     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/5cc46ecbd4ff51673a0d7e2b4ec44c64c7fb2974",
-     "date": "2026-11-01T18:13:02Z"
-    },
-    {
-     "title": "Course links follow the app: /cast/, Play, recursive.eco (iching)",
-     "url": "https://github.com/PlayfulProcess/recursive-iching/commit/00bd43b04bb089de213e5b193989b235407628b9",
-     "date": "2026-11-01T18:12:16Z"
     }
    ]
   },
