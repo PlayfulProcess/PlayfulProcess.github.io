@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-09T23:31:46Z",
+ "newest": "2026-11-10T22:45:00Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Merge the simple reading page (three Book T cards, then talk) (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/22394caf2d594e2e6b05469a464513db90ed4327",
-     "date": "2026-11-09T23:31:46Z"
+     "title": "Merge the reading page round 2: Cast, spread and deck choosers, share… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/1462f17221148ae3c00dadc6b3d99ea207408a7d",
+     "date": "2026-11-10T22:45:00Z"
     },
     {
-     "title": "Add a simple reading page: three Book T cards, then talk (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e0b9359cbcf680d8c01610efb8562f448bd98f88",
-     "date": "2026-11-09T23:19:53Z"
+     "title": "Home: the Cast three cards call to action sits right under the opening (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/85dde8f01828c7c09e1a1f3ef087415425d08078",
+     "date": "2026-11-10T22:44:57Z"
     },
     {
-     "title": "Links follow the app: /cast/, Create, Play, the MCP on recursive.eco (astrology)",
-     "url": "https://github.com/PlayfulProcess/recursive-astrology/commit/ed1846c4abe583f60363347e4e26cdb3a31e4bba",
-     "date": "2026-11-01T18:13:17Z"
+     "title": "Quick reading: spread and deck chips, three shared actions, picture p… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/2d57c27be2167e1c7c54d01a7e35b387d95c31e7",
+     "date": "2026-11-10T22:43:59Z"
     }
    ]
   },
@@ -60,19 +60,19 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "Fragments: November 10",
+     "url": "https://martinfowler.com/fragments/2026-11-10.html",
+     "date": "2026-11-10T14:30:00Z"
+    },
+    {
+     "title": "Long-horizon agents and durable execution",
+     "url": "https://martinfowler.com/articles/durable-execution-agents.html",
+     "date": "2026-11-10T14:10:00Z"
+    },
+    {
      "title": "The Data Product Platform Navigator",
      "url": "https://martinfowler.com/articles/data-product-platform-nav.html",
      "date": "2026-11-05T14:11:00Z"
-    },
-    {
-     "title": "Bliki: LLM Voice",
-     "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-     "date": "2026-10-29T14:28:00Z"
-    },
-    {
-     "title": "Why are good developers so wary of agentic development?",
-     "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
-     "date": "2026-10-29T13:50:00Z"
     }
    ]
   },
