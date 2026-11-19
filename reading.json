@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-17T14:33:00Z",
+ "newest": "2026-11-18T14:02:00Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -60,6 +60,11 @@
    "feed": "https://martinfowler.com/feed.atom",
    "items": [
     {
+     "title": "Data Contracts",
+     "url": "https://martinfowler.com/articles/data-contracts.html",
+     "date": "2026-11-18T14:02:00Z"
+    },
+    {
      "title": "Deterministic Simulation Testing",
      "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
      "date": "2026-11-17T14:33:00Z"
@@ -68,11 +73,6 @@
      "title": "Bliki: Generated Glossary",
      "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
      "date": "2026-11-12T14:15:00Z"
-    },
-    {
-     "title": "Tests as data: ensuring AI-generated code does what we want",
-     "url": "https://martinfowler.com/articles/tests-as-data.html",
-     "date": "2026-11-11T15:17:00Z"
     }
    ]
   },
