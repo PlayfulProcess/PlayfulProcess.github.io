@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-20T18:38:00Z",
+ "newest": "2026-11-22T03:42:44Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,6 +35,11 @@
    "feed": "feed.xml",
    "items": [
     {
+     "title": "Book T: a two-line lede, what it is and that the pictures are new (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f3a47d561d68719ed2548fdd927af0c89dcb07cd",
+     "date": "2026-11-22T03:42:44Z"
+    },
+    {
      "title": "Merge the reading page round 2: Cast, spread and deck choosers, share… (tarot)",
      "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/1462f17221148ae3c00dadc6b3d99ea207408a7d",
      "date": "2026-11-10T22:45:00Z"
@@ -43,11 +48,6 @@
      "title": "Home: the Cast three cards call to action sits right under the opening (tarot)",
      "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/85dde8f01828c7c09e1a1f3ef087415425d08078",
      "date": "2026-11-10T22:44:57Z"
-    },
-    {
-     "title": "Quick reading: spread and deck chips, three shared actions, picture p… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/2d57c27be2167e1c7c54d01a7e35b387d95c31e7",
-     "date": "2026-11-10T22:43:59Z"
     }
    ]
   },
