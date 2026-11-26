@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-22T03:42:44Z",
+ "newest": "2026-11-26T03:46:45Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Book T: a two-line lede, what it is and that the pictures are new (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f3a47d561d68719ed2548fdd927af0c89dcb07cd",
-     "date": "2026-11-22T03:42:44Z"
+     "title": "Homepage: section subtitles in sentence case (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f01f585137c4af7fc5d41029a6905fee8a94adc7",
+     "date": "2026-11-26T03:46:45Z"
     },
     {
-     "title": "Merge the reading page round 2: Cast, spread and deck choosers, share… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/1462f17221148ae3c00dadc6b3d99ea207408a7d",
-     "date": "2026-11-10T22:45:00Z"
+     "title": "Homepage: shorter doors title (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/29b35e75e3e4860080aee2cc13168eab1b901cc6",
+     "date": "2026-11-26T03:45:48Z"
     },
     {
-     "title": "Home: the Cast three cards call to action sits right under the opening (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/85dde8f01828c7c09e1a1f3ef087415425d08078",
-     "date": "2026-11-10T22:44:57Z"
+     "title": "Homepage: Start here pair (cast | build a spread) and one heading sty… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fff18221c45e62660d94e9bcf4c871b655f1955a",
+     "date": "2026-11-26T03:45:10Z"
     }
    ]
   },

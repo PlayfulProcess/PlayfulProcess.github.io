@@ -5,8 +5,36 @@
   <link rel="alternate" type="text/html" href="https://playfulprocess.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://playfulprocess.github.io/feed.xml"/>
   <id>https://playfulprocess.github.io/</id>
-  <updated>2026-11-22T03:42:44Z</updated>
+  <updated>2026-11-26T03:46:45Z</updated>
   <author><name>PlayfulProcess</name></author>
+  <entry>
+    <title>Homepage: section subtitles in sentence case (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/f01f585137c4af7fc5d41029a6905fee8a94adc7"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/f01f585137c4af7fc5d41029a6905fee8a94adc7</id>
+    <updated>2026-11-26T03:46:45Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Homepage: shorter doors title (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/29b35e75e3e4860080aee2cc13168eab1b901cc6"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/29b35e75e3e4860080aee2cc13168eab1b901cc6</id>
+    <updated>2026-11-26T03:45:48Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Homepage: Start here pair (cast | build a spread) and one heading sty… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/fff18221c45e62660d94e9bcf4c871b655f1955a"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/fff18221c45e62660d94e9bcf4c871b655f1955a</id>
+    <updated>2026-11-26T03:45:10Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
+  <entry>
+    <title>Home: a prettier New here? box (three painted Book T cards in the her… (tarot)</title>
+    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/2fe299557c98d09a487c5ce0adc517112bdeddeb"/>
+    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/2fe299557c98d09a487c5ce0adc517112bdeddeb</id>
+    <updated>2026-11-26T03:39:14Z</updated>
+    <category term="recursive.eco"/>
+  </entry>
   <entry>
     <title>Book T: a two-line lede, what it is and that the pictures are new (tarot)</title>
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/f3a47d561d68719ed2548fdd927af0c89dcb07cd"/>
@@ -89,13 +117,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/fa6ab6609c749e3f8b26aeddf2d2a8fc0726c44f"/>
     <id>https://github.com/PlayfulProcess/recursive-tarot/commit/fa6ab6609c749e3f8b26aeddf2d2a8fc0726c44f</id>
     <updated>2026-10-31T17:31:13Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Book T: each card shows its Rider-Waite-Smith card, linked and pictured (tarot)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-tarot/commit/29cd644c4cfd141e9d43c9e4db66bbe36c05d170"/>
-    <id>https://github.com/PlayfulProcess/recursive-tarot/commit/29cd644c4cfd141e9d43c9e4db66bbe36c05d170</id>
-    <updated>2026-10-28T21:34:48Z</updated>
     <category term="recursive.eco"/>
   </entry>
   <entry>
@@ -194,27 +215,6 @@
     <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/a6f6f4a5010babfab0d114ec401876bc1857bd0e"/>
     <id>https://github.com/PlayfulProcess/recursive-astrology/commit/a6f6f4a5010babfab0d114ec401876bc1857bd0e</id>
     <updated>2026-10-19T18:25:11Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>site-header: the assistant star on every page (repatterning)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-repatterning/commit/d625a072b41edd4055ca0f8e09d9b7f44cf386a9"/>
-    <id>https://github.com/PlayfulProcess/recursive-repatterning/commit/d625a072b41edd4055ca0f8e09d9b7f44cf386a9</id>
-    <updated>2026-10-19T17:33:53Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Pages: View, Cast and Edit open Play and Cast; the star on every page (astrology)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-astrology/commit/1fcadff124d700108b4c5aeb36ede895c5aa415d"/>
-    <id>https://github.com/PlayfulProcess/recursive-astrology/commit/1fcadff124d700108b4c5aeb36ede895c5aa415d</id>
-    <updated>2026-10-19T17:31:51Z</updated>
-    <category term="recursive.eco"/>
-  </entry>
-  <entry>
-    <title>Pages: View, Cast and Edit open Play and Cast; the star on every page (iching)</title>
-    <link rel="alternate" href="https://github.com/PlayfulProcess/recursive-iching/commit/441f661c6cb9d48a5440942ec8c393c620d39d41"/>
-    <id>https://github.com/PlayfulProcess/recursive-iching/commit/441f661c6cb9d48a5440942ec8c393c620d39d41</id>
-    <updated>2026-10-19T17:28:24Z</updated>
     <category term="recursive.eco"/>
   </entry>
 </feed>
