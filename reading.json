@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-26T03:46:45Z",
+ "newest": "2026-11-26T22:27:07Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Homepage: section subtitles in sentence case (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f01f585137c4af7fc5d41029a6905fee8a94adc7",
-     "date": "2026-11-26T03:46:45Z"
+     "title": "Read from my picture: choose the spread on your table, or describe yo… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f30631bf3534a0ecaf6ae74537161b8376d9c651",
+     "date": "2026-11-26T22:27:07Z"
     },
     {
-     "title": "Homepage: shorter doors title (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/29b35e75e3e4860080aee2cc13168eab1b901cc6",
-     "date": "2026-11-26T03:45:48Z"
+     "title": "Talk about it: send the deck's recursive.eco id and each card's node (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/6549500165337ba292993247fab872990b4a0d32",
+     "date": "2026-11-26T22:14:26Z"
     },
     {
-     "title": "Homepage: Start here pair (cast | build a spread) and one heading sty… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/fff18221c45e62660d94e9bcf4c871b655f1955a",
-     "date": "2026-11-26T03:45:10Z"
+     "title": "Merge main into footer-newsletter-route: keep the route's own error m… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/ec11c4e28186a5480fa5b981be2576df9bb80bf0",
+     "date": "2026-11-26T20:21:28Z"
     }
    ]
   },
