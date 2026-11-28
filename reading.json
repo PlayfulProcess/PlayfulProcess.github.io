@@ -1,5 +1,5 @@
 {
- "newest": "2026-11-26T22:27:07Z",
+ "newest": "2026-11-28T05:29:48Z",
  "sources": [
   {
    "id": "playfulprocess",
@@ -35,19 +35,19 @@
    "feed": "feed.xml",
    "items": [
     {
-     "title": "Read from my picture: choose the spread on your table, or describe yo… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/f30631bf3534a0ecaf6ae74537161b8376d9c651",
-     "date": "2026-11-26T22:27:07Z"
+     "title": "research: Book T painting review against Book T words (Nov 28) (#150) (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/0597b1ef353bfc0a733b3ad46f47cba83da64e5a",
+     "date": "2026-11-28T05:29:48Z"
     },
     {
-     "title": "Talk about it: send the deck's recursive.eco id and each card's node (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/6549500165337ba292993247fab872990b4a0d32",
-     "date": "2026-11-26T22:14:26Z"
+     "title": "Book T: cards keep the full-size painting (848 px, was 600); a zodiac… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/e230a46eda173ef507b3bd62053aae0827415347",
+     "date": "2026-11-28T05:26:42Z"
     },
     {
-     "title": "Merge main into footer-newsletter-route: keep the route's own error m… (tarot)",
-     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/ec11c4e28186a5480fa5b981be2576df9bb80bf0",
-     "date": "2026-11-26T20:21:28Z"
+     "title": "Book T: each card's ring as its own SVG (tarot/book-t/rings), for the… (tarot)",
+     "url": "https://github.com/PlayfulProcess/recursive-tarot/commit/14cef6b94082cfdfc2b0221264ecf8459009ead6",
+     "date": "2026-11-28T03:41:06Z"
     }
    ]
   },
